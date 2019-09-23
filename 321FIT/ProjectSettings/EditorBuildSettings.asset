@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/VideoCanvas.unity
+    guid: e02791dfa72d47c4db0c392586cebd67
+  - enabled: 1
+    path: Assets/SplashAnimation/Examples/SplashAnimationExampleScene.unity
+    guid: 199b9dc0bb751d2408809d703df7bae9
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 4573c32c9b39d2243b7218b83df752b8
+  - enabled: 1
+    path: Assets/Scenes/Config.unity
+    guid: 8e4b2b34d24d41e4bb67dc0d17387339
+  - enabled: 0
+    path: Assets/WorkoutPlayer/Examples/WorkoutPlayerExample.unity
+    guid: 3d17cb3480fc0ec4598dffb16cb2033e
