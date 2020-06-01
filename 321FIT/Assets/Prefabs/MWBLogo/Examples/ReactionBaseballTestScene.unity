@@ -12434,9 +12434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1799a6fe8e9f4264f97339e06c1ecd23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _colorDim: {r: 0.4, g: 0, b: 0.20666675, a: 1}
-  _colorLit: {r: 1, g: 0, b: 0.5166669, a: 1}
-  _secondsToWaitBeforeLit: 1.1
+  _colorDim: {r: 0.5, g: 0, b: 0.32549024, a: 1}
+  _colorLit: {r: 1, g: 0, b: 0.6509804, a: 1}
+  _secondsToWaitBeforeLit: 1
 --- !u!1 &1444375437
 GameObject:
   m_ObjectHideFlags: 0

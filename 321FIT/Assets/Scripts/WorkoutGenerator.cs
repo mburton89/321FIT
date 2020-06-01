@@ -354,6 +354,7 @@ public class WorkoutGenerator : MonoBehaviour {
         preloadedExercises.Add(donkeyKicksExercise);
         preloadedExercises.Add(flutterKicksExercise);
         preloadedExercises.Add(jogInPlaceExercise);
+        preloadedExercises.Add(jumpRopeExercise);
         preloadedExercises.Add(legRaisesExercise);
         preloadedExercises.Add(reverseCrunchesExercise);
         preloadedExercises.Add(supermanExercise);
@@ -412,10 +413,10 @@ public class WorkoutGenerator : MonoBehaviour {
 		listOfExerciseSpriteLists.Add (windmills);
 
         listOfExerciseSpriteLists.Add(burpees);
-        listOfExerciseSpriteLists.Add(pushups);
+        listOfExerciseSpriteLists.Add(clappingPushUps);
         listOfExerciseSpriteLists.Add(donkeyKicks);
         listOfExerciseSpriteLists.Add(flutterKicks);
-        listOfExerciseSpriteLists.Add(running);
+        listOfExerciseSpriteLists.Add(jogInPlace);
         listOfExerciseSpriteLists.Add(jumpRope);
         listOfExerciseSpriteLists.Add(legRaises);
         listOfExerciseSpriteLists.Add(reverseCrunches);

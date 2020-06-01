@@ -16,7 +16,7 @@ public class WorkoutManager : MonoBehaviour {
 
 	void Awake(){
 
-		PlayerPrefs.DeleteAll ();
+		//PlayerPrefs.DeleteAll ();
 
 		if(Instance == null){
 			Instance = this;

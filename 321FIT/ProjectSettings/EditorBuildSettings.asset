@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/VideoCanvas.unity
+    path: Assets/VideoAd/Scenes/VideoCanvas.unity
     guid: e02791dfa72d47c4db0c392586cebd67
   - enabled: 1
     path: Assets/SplashAnimation/Examples/SplashAnimationExampleScene.unity
@@ -20,3 +20,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/WorkoutPlayer/Examples/WorkoutPlayerExample.unity
     guid: 3d17cb3480fc0ec4598dffb16cb2033e
+  m_configObjects: {}
