@@ -68,59 +68,81 @@ public class WorkoutGenerator : MonoBehaviour {
 	ExerciseData uprightRowsExercise = new ExerciseData(); //2/19/2019
 	ExerciseData windmillsExercise = new ExerciseData(); //2/19/2019
 
+    //no Weights
+    ExerciseData burpeesExercise = new ExerciseData();
+    ExerciseData clappingPushUpsExercise = new ExerciseData();
+    ExerciseData donkeyKicksExercise = new ExerciseData();
+    ExerciseData flutterKicksExercise = new ExerciseData();
+    ExerciseData jogInPlaceExercise = new ExerciseData();
+    ExerciseData jumpRopeExercise = new ExerciseData();
+    ExerciseData legRaisesExercise = new ExerciseData();
+    ExerciseData reverseCrunchesExercise = new ExerciseData();
+    ExerciseData supermanExercise = new ExerciseData();
+    ExerciseData wallSitExercise = new ExerciseData();
 
-	//SPRITES FOR FITBOY ANIMATIONS 
-	public List<Sprite> 
-	_generic,
+
+    //SPRITES FOR FITBOY ANIMATIONS 
+    public List<Sprite>
+    _generic,
     abWheel,
-	bandsExternal,
-	bandsInternal,
+    bandsExternal,
+    bandsInternal,
     benchPress,
     bentOverRow,
-	bodySquats,
+    bodySquats,
     boxJumps,
     calfRaises,
-	chairDips,
-	chinUps,
+    chairDips,
+    chinUps,
     cleans,
-	cleanPress,
-	crunches,
+    cleanPress,
+    crunches,
     curls,
     dbFrontRaises,
     dbRows,
     db_shoulder_press,
     db_side_raises,
-	dbToeTouches,
+    dbToeTouches,
     deadlifts,
     dips,
-	hammerCurls,
-	hangingKneeRaises,
+    hammerCurls,
+    hangingKneeRaises,
     inclineBench,
     jumpingJacks,
     lunges,
-	militaryPress,
-	modifiedPushups,
-	obliqueSideRaises,
-	overheadTricepExtensions,
-	reverseCurls,
-	reverseFlies,
-	rowMachine,
-	planksBack,
+    militaryPress,
+    modifiedPushups,
+    obliqueSideRaises,
+    overheadTricepExtensions,
+    reverseCurls,
+    reverseFlies,
+    rowMachine,
+    planksBack,
     planksFront,
-	planksSide,
+    planksSide,
     pullUps,
     pushups,
     running,
     shrugs,
-	skullCrushers,
-	squats,
-	squatJumps,
-	straightLegDeadlift,
-	tricepKickBack,
-	uprightRows,
-	windmills;
-   
-	[HideInInspector]public List<List<Sprite>> listOfExerciseSpriteLists = new List<List<Sprite>>();
+    skullCrushers,
+    squats,
+    squatJumps,
+    straightLegDeadlift,
+    tricepKickBack,
+    uprightRows,
+    windmills,
+    burpees,
+    clappingPushUps,
+    donkeyKicks,
+    flutterKicks,
+    jogInPlace,
+    jumpRope,
+    legRaises,
+    reverseCrunches,
+    superman,
+    wallSit;
+
+    [HideInInspector]public List<List<Sprite>> listOfExerciseSpriteLists = new List<List<Sprite>>();
 
 	//SPRITES FOR FITBOY ILLUMINATIONS 
 	public Sprite 
@@ -268,7 +290,18 @@ public class WorkoutGenerator : MonoBehaviour {
 		uprightRowsExercise.Init("Upright Rows", 90, 3, 10, 0, ExerciseType.uprightRows);
 		windmillsExercise.Init("Windmills", 90, 3, 10, 0, ExerciseType.windmills);
 
-		preloadedExercises.Add(abWheelExercise);
+        burpeesExercise.Init("Burpees", 90, 3, 10, 0, ExerciseType.burpees);
+        clappingPushUpsExercise.Init("Clapping Push Ups", 90, 3, 10, 0, ExerciseType.clappingPushUps);
+        donkeyKicksExercise.Init("Donkey Kicks", 90, 3, 10, 0, ExerciseType.donkeyKicks);
+        flutterKicksExercise.Init("Flutter Kicks", 90, 3, 20, 0, ExerciseType.flutterKicks);
+        jogInPlaceExercise.Init("Jog In Place", 300, 1, 1, 0, ExerciseType.jogInPlace);
+        jumpRopeExercise.Init("Jump Rope", 90, 3, 25, 0, ExerciseType.jumpRope);
+        legRaisesExercise.Init("Leg Raises", 90, 3, 10, 0, ExerciseType.legRaises);
+        reverseCrunchesExercise.Init("Reverse Crunches", 90, 3, 10, 0, ExerciseType.reverseCrunches);
+        supermanExercise.Init("Superman", 90, 3, 10, 0, ExerciseType.superman);
+        wallSitExercise.Init("Wall Sit", 60, 3, 1, 0, ExerciseType.wallSit);
+
+        preloadedExercises.Add(abWheelExercise);
 		preloadedExercises.Add (bandsExternalExercise);
 		preloadedExercises.Add (bandsInternalExercise);
 		preloadedExercises.Add(benchPressExercise);
@@ -315,7 +348,18 @@ public class WorkoutGenerator : MonoBehaviour {
 		preloadedExercises.Add(tricepKickBackExercise);
 		preloadedExercises.Add(uprightRowsExercise);
 		preloadedExercises.Add(windmillsExercise);
-	}
+
+        preloadedExercises.Add(burpeesExercise);
+        preloadedExercises.Add(clappingPushUpsExercise);
+        preloadedExercises.Add(donkeyKicksExercise);
+        preloadedExercises.Add(flutterKicksExercise);
+        preloadedExercises.Add(jogInPlaceExercise);
+        preloadedExercises.Add(jumpRopeExercise);
+        preloadedExercises.Add(legRaisesExercise);
+        preloadedExercises.Add(reverseCrunchesExercise);
+        preloadedExercises.Add(supermanExercise);
+        preloadedExercises.Add(wallSitExercise);
+    }
 
     void AddExerciseSpritesListsToExerciseSpriteListList()
 	{
@@ -367,9 +411,20 @@ public class WorkoutGenerator : MonoBehaviour {
         listOfExerciseSpriteLists.Add(tricepKickBack);
 		listOfExerciseSpriteLists.Add (uprightRows);
 		listOfExerciseSpriteLists.Add (windmills);
-	}
 
-	void AddWorkoutSpriteToWorkoutSpriteList()
+        listOfExerciseSpriteLists.Add(burpees);
+        listOfExerciseSpriteLists.Add(clappingPushUps);
+        listOfExerciseSpriteLists.Add(donkeyKicks);
+        listOfExerciseSpriteLists.Add(flutterKicks);
+        listOfExerciseSpriteLists.Add(jogInPlace);
+        listOfExerciseSpriteLists.Add(jumpRope);
+        listOfExerciseSpriteLists.Add(legRaises);
+        listOfExerciseSpriteLists.Add(reverseCrunches);
+        listOfExerciseSpriteLists.Add(superman);
+        listOfExerciseSpriteLists.Add(wallSit);
+    }
+
+    void AddWorkoutSpriteToWorkoutSpriteList()
 	{
 		listOfWorktoutSprites.Add(_singleDumbell);
 		listOfWorktoutSprites.Add(doubleDumbell);
