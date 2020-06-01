@@ -16,7 +16,7 @@ public class WorkoutManager : MonoBehaviour {
 
 	void Awake(){
 
-		//PlayerPrefs.DeleteAll ();
+		PlayerPrefs.DeleteAll ();
 
 		if(Instance == null){
 			Instance = this;
@@ -27,7 +27,7 @@ public class WorkoutManager : MonoBehaviour {
 		} else {
 			PlayerPrefs.SetString("userTitle", "Workouts");
 			PlayerPrefs.SetString ("weightType", "lb");
-			PlayerPrefs.SetFloat ("scanlines", 0.5f);
+			PlayerPrefs.SetFloat ("scanlines", 0.25f);
 		}
 
 		Application.runInBackground = true;

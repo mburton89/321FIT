@@ -60,7 +60,7 @@ public class EditExerciseView : MonoBehaviour {
 		if (shouldAutoSelectInputField) {
 			_exerciseNameInputField.Select ();
 		}
-	}
+    }
 
 	public void CopyAndInit(ExerciseData exerciseToCopy, bool isCreatingNewExercise, bool shouldAutoSelectInputField)
 	{
@@ -97,12 +97,22 @@ public class EditExerciseView : MonoBehaviour {
 	public void Show()
 	{
 		_container.SetActive (true);
-	}
+
+        //if (IPhoneMover.Instance != null)
+        //{
+        //    IPhoneMover.Instance.MoveToPos2();
+        //}
+    }
 
 	public void Hide()
 	{
 		_container.SetActive (false);
-	}
+
+        //if (IPhoneMover.Instance != null)
+        //{
+        //    IPhoneMover.Instance.MoveToPos1();
+        //}
+    }
 
 	public void HandleInputFieldSubmitted(string title)
 	{
