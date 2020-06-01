@@ -51,7 +51,18 @@ public enum ExerciseType //TODO add the exercises 2/19/2019
 	straightLegDeadlift,
     tricepKickBack,
 	uprightRows,
-	windmills
+	windmills,
+
+    burpees,
+    clappingPushUps,
+    donkeyKicks,
+    flutterKicks,
+    jogInPlace,
+    jumpRope,
+    legRaises,
+    reverseCrunches,
+    superman,
+    wallSit
 }
 
 [System.Serializable]
