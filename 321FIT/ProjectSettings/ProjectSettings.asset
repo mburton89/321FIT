@@ -118,7 +118,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.1
+  bundleVersion: 1.1.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -157,9 +157,9 @@ PlayerSettings:
     iOS: com.matthewburton.worqout
   buildNumber:
     iOS: 1
-  AndroidBundleVersionCode: 142
-  AndroidMinSdkVersion: 16
-  AndroidTargetSdkVersion: 0
+  AndroidBundleVersionCode: 143
+  AndroidMinSdkVersion: 23
+  AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
