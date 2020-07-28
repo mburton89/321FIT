@@ -170,7 +170,8 @@ public class WorkoutGenerator : MonoBehaviour {
 		day4,
 		day5,
 		day6,
-		day7;
+		day7,
+        wod;
 
 	[HideInInspector]public List<Sprite> listOfWorktoutSprites = new List<Sprite>();
 
@@ -450,10 +451,11 @@ public class WorkoutGenerator : MonoBehaviour {
 		listOfWorktoutSprites.Add(day4);
 		listOfWorktoutSprites.Add(day5);
 		listOfWorktoutSprites.Add(day6);
-		listOfWorktoutSprites.Add(day7);
-	}
+        listOfWorktoutSprites.Add(day7);
+        listOfWorktoutSprites.Add(wod);
+    }
 
-	void AddPlanSpriteToPlanSpriteList()
+    void AddPlanSpriteToPlanSpriteList()
 	{
 		listOfDifficultySprites.Add(easy);
 		listOfDifficultySprites.Add(medium);

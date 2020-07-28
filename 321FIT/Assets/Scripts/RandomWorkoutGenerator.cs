@@ -25,7 +25,7 @@ public class RandomWorkoutGenerator : MonoBehaviour
     public bool hasRowMachine;
     public bool hasDipsBar;
 
-    public enum WorkoutType
+    public enum BodyGroup
     {
         cardio,
         upperBody,
@@ -33,24 +33,33 @@ public class RandomWorkoutGenerator : MonoBehaviour
         fullBody
     }
 
-    public WorkoutType currentWorkoutType;
+    public BodyGroup currentBodyGroup;
 
-    private void Start()
+    private void Awake()
     {
-        randomWorkout.name = "WOD " + DateTime.Now.Month + "/" + DateTime.Now.Day;
+        //TODO Set these via player pref
+        hasAbWheel = false;
+        hasRunningPath = true;
+        hasDumbells = true;
+        hasSquatRack = false;
+        hasCablesOrBands = true;
+        hasBench = true;
+        hasPullUpBar = true;
+        hasRowMachine = false;
+        hasDipsBar = false;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            DetermineViableExercises();
             GenerateRandomWorkout();
         }
     }
 
     void DetermineViableExercises()
     {
+        print("sup");
         viableExercises = new List<ExerciseData>();
 
         if (!hasAbWheel)
@@ -118,15 +127,25 @@ public class RandomWorkoutGenerator : MonoBehaviour
         }
     }
 
-    void GenerateRandomWorkout()
+    public void GenerateRandomWorkout()
     {
-        //Check minutes remaining
-        //if minutes remaining > 0, add another random exercise
-        //get random int between 0 and length of viable workouts
-        //if int is same index as exercise that has already been used, get new random int
-        //else add viableExercises[randomInt] to randomWorkout
+        WorkoutPanel[] workoutPanels = FindObjectsOfType<WorkoutPanel>(); //TODO this is gross and spensive
+
+        foreach (WorkoutPanel workoutPanel in workoutPanels)
+        { 
+            if(workoutPanel.workoutData.workoutType == WorkoutType.wod)
+            {
+                AreYouSurePanel.Instance.DeleteWorkout(workoutPanel);
+            }
+        }
+
+        DetermineViableExercises();
 
         randomWorkout = new WorkoutData();
+        string newWorkoutName = "WOD " + DateTime.Now.Month + "/" + DateTime.Now.Day;
+        randomWorkout.name = randomWorkout.name = newWorkoutName;
+        randomWorkout.workoutType = WorkoutType.wod; //TODO use WOD icon
+        randomWorkout.secondsBetweenExercises = 60; //TODO Change based on difficulty
         randomWorkout.exerciseData = new List<ExerciseData>();
 
         while (randomWorkout.minutes < desiredMinutesInWorkout - 3)
@@ -149,6 +168,9 @@ public class RandomWorkoutGenerator : MonoBehaviour
             }
         }
         //Add randomWorkout to app
+        WorkoutHUD.Instance.AddWorkoutPanel(randomWorkout, false);
+        SoundManager.Instance.PlayButtonPressSound();
+        WorkoutManager.Instance.Save();
     }
 
     public void UpdateMinutes(float minutes)
@@ -161,18 +183,48 @@ public class RandomWorkoutGenerator : MonoBehaviour
         desiredDifficulty = (int)difficulty;
     }
 
-    //public bool hasAbWheel;
-    //public bool hasRunningPath;
-    //public bool hasDumbells;
-    //public bool hasSquatRack;
-    //public bool hasCablesOrBands;
-    //public bool hasBench;
-    //public bool hasPullUpBar;
-    //public bool hasRowMachine;
-    //public bool hasDipsBar;
-
     public void UpdateHasAbWheel(bool isTrue)
     {
         hasAbWheel = isTrue;
+    }
+
+    public void UpdateHasRunningPath(bool isTrue)
+    {
+        hasRunningPath = isTrue;
+    }
+
+    public void UpdateHasDumbells(bool isTrue)
+    {
+        hasDumbells = isTrue;
+    }
+
+    public void UpdateHasSquatRack(bool isTrue)
+    {
+        hasSquatRack = isTrue;
+    }
+
+    public void UpdateHasCablesOrBands(bool isTrue)
+    {
+        hasCablesOrBands = isTrue;
+    }
+
+    public void UpdateHasBench(bool isTrue)
+    {
+        hasBench = isTrue;
+    }
+
+    public void UpdateHasPullUpBar(bool isTrue)
+    {
+        hasPullUpBar = isTrue;
+    }
+
+    public void UpdateHasRowMachine(bool isTrue)
+    {
+        hasRowMachine = isTrue;
+    }
+
+    public void UpdateHasDipsBar(bool isTrue)
+    {
+        hasDipsBar = isTrue;
     }
 }

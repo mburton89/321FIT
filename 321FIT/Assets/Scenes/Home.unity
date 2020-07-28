@@ -265,7 +265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &26219401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1656,7 +1656,7 @@ GameObject:
   - component: {fileID: 63270076}
   - component: {fileID: 63270075}
   m_Layer: 5
-  m_Name: IconSelectMenu
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2424,7 +2424,7 @@ GameObject:
   - component: {fileID: 101386794}
   - component: {fileID: 101386793}
   m_Layer: 5
-  m_Name: TMP - Bench (3)
+  m_Name: TMP - Dumbbells
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2445,10 +2445,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 311.73, y: -186.54999}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &101386793
 MonoBehaviour:
@@ -3253,7 +3253,7 @@ GameObject:
   - component: {fileID: 131457072}
   - component: {fileID: 131457071}
   m_Layer: 5
-  m_Name: TMP - Bench (5)
+  m_Name: TMP - PullUpBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3274,10 +3274,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 311.73, y: -266.25}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &131457071
 MonoBehaviour:
@@ -9065,7 +9065,7 @@ GameObject:
   - component: {fileID: 353903363}
   - component: {fileID: 353903362}
   m_Layer: 5
-  m_Name: TMP - Bench (4)
+  m_Name: TMP - SquatRack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9086,10 +9086,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -266.25}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &353903362
 MonoBehaviour:
@@ -10554,6 +10554,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
   m_Children:
+  - {fileID: 1622720558}
   - {fileID: 1390676714}
   m_Father: {fileID: 616639939}
   m_RootOrder: 15
@@ -10605,7 +10606,7 @@ MonoBehaviour:
   hasPullUpBar: 0
   hasRowMachine: 0
   hasDipsBar: 0
-  currentWorkoutType: 0
+  currentBodyGroup: 0
 --- !u!114 &422921894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10619,16 +10620,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _generator: {fileID: 422921893}
+  _container: {fileID: 1390676713}
+  _minutesLabel: {fileID: 735034991}
+  _difficultyLabel: {fileID: 258717959}
   _minutesSlider: {fileID: 1056344940}
   _difficultySlider: {fileID: 701970795}
   _hasAbWheel: {fileID: 949368265}
-  _hasBench: {fileID: 0}
-  _hasDipsBar: {fileID: 0}
-  _hasDumbbells: {fileID: 0}
-  _hasSquatRack: {fileID: 0}
-  _hasPullUpBar: {fileID: 0}
-  _hasBands: {fileID: 0}
-  _hasRowMachine: {fileID: 0}
+  _hasBench: {fileID: 696340082}
+  _hasDipsBar: {fileID: 1264218281}
+  _hasDumbbells: {fileID: 1946056249}
+  _hasSquatRack: {fileID: 1601238991}
+  _hasPullUpBar: {fileID: 266122820}
+  _hasBands: {fileID: 1447408468}
+  _hasRowMachine: {fileID: 1759525906}
+  _generateWorkoutButton: {fileID: 590201757}
+  _colorImages:
+  - {fileID: 1247851292}
+  - {fileID: 1862877313}
+  - {fileID: 1634722988}
+  - {fileID: 1557843067}
+  - {fileID: 793867973}
+  - {fileID: 1538292222}
+  - {fileID: 308050825}
+  - {fileID: 221754803}
+  - {fileID: 926762627}
+  - {fileID: 419653012}
+  - {fileID: 334910798}
+  - {fileID: 1392854957}
+  - {fileID: 1928910058}
+  - {fileID: 516687774}
+  - {fileID: 1190378354}
+  - {fileID: 1226088843}
+  - {fileID: 875636478}
+  - {fileID: 1651384157}
+  - {fileID: 877259494}
+  _texts:
+  - {fileID: 1435721919}
+  - {fileID: 26219403}
+  - {fileID: 735034991}
+  - {fileID: 1424364037}
+  - {fileID: 1144427021}
+  - {fileID: 258717959}
+  - {fileID: 882176243}
+  - {fileID: 2117637193}
+  - {fileID: 1023029319}
+  - {fileID: 906673394}
+  - {fileID: 101386793}
+  - {fileID: 353903362}
+  - {fileID: 131457071}
+  - {fileID: 1196705683}
+  - {fileID: 1727983088}
 --- !u!1 &434420723
 GameObject:
   m_ObjectHideFlags: 0
@@ -13153,6 +13194,7 @@ MonoBehaviour:
   day5: {fileID: 21300000, guid: 2a091b31377248b48b0eaa5456c8c523, type: 3}
   day6: {fileID: 21300000, guid: d3fb8e8c962af044ba344c4ab9375988, type: 3}
   day7: {fileID: 21300000, guid: 3e2069da48273b84e95f3807fd4b75f0, type: 3}
+  wod: {fileID: 21300000, guid: d1f5166a1be944c728d77afd922eaebb, type: 3}
   listOfWorktoutSprites: []
   easy: {fileID: 21300000, guid: e0ef9544be1e0624bbbb4b42ce3f38af, type: 3}
   medium: {fileID: 21300000, guid: e6ee4e115c97e024ebf9b145b4905af2, type: 3}
@@ -14382,7 +14424,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2080643778}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18687,10 +18729,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1862877312}
   m_HandleRect: {fileID: 1538292221}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 1
+  m_MaxValue: 5
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19133,7 +19175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Minutes in Workout: ~30'
+  m_text: 'Minutes:  ~30'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: feb692f47b3d4d145a123c0724e06ee9, type: 2}
   m_sharedMaterial: {fileID: 21782971701135576, guid: feb692f47b3d4d145a123c0724e06ee9,
@@ -19203,10 +19245,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 1.1484199, w: 0}
   m_textInfo:
     textComponent: {fileID: 735034991}
-    characterCount: 23
+    characterCount: 13
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 2
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -23405,7 +23447,7 @@ GameObject:
   - component: {fileID: 906673395}
   - component: {fileID: 906673394}
   m_Layer: 5
-  m_Name: TMP - Bench (2)
+  m_Name: TMP - Dips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23426,10 +23468,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -186.54999}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &906673394
 MonoBehaviour:
@@ -26529,7 +26571,7 @@ GameObject:
   - component: {fileID: 1023029320}
   - component: {fileID: 1023029319}
   m_Layer: 5
-  m_Name: TMP - Bench (1)
+  m_Name: TMP - Bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26550,10 +26592,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 311.73, y: -106.85}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1023029319
 MonoBehaviour:
@@ -27001,7 +27043,7 @@ GameObject:
   - component: {fileID: 1038593845}
   - component: {fileID: 1038593844}
   m_Layer: 5
-  m_Name: LayoutGroup - EditRows
+  m_Name: LayoutGroup - Rows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27716,10 +27758,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1247851291}
   m_HandleRect: {fileID: 793867972}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 5
+  m_MaxValue: 120
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -29859,7 +29901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1144427019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30942,7 +30984,7 @@ GameObject:
   - component: {fileID: 1196705684}
   - component: {fileID: 1196705683}
   m_Layer: 5
-  m_Name: TMP - Bench (6)
+  m_Name: TMP - Bands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30963,10 +31005,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -345.94998}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1196705683
 MonoBehaviour:
@@ -32272,7 +32314,7 @@ GameObject:
   - component: {fileID: 1252967148}
   - component: {fileID: 1252967147}
   m_Layer: 5
-  m_Name: Scroll View - Exercises
+  m_Name: 'Scroll View '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32380,7 +32422,7 @@ GameObject:
   - component: {fileID: 1259057876}
   - component: {fileID: 1259057875}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image - BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35279,7 +35321,7 @@ RectTransform:
   - {fileID: 92085184}
   - {fileID: 2104396233}
   m_Father: {fileID: 422921891}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -36009,7 +36051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1424364035
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36284,7 +36326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1435721917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39995,7 +40037,7 @@ MonoBehaviour:
   hasPullUpBar: 0
   hasRowMachine: 0
   hasDipsBar: 0
-  currentWorkoutType: 0
+  currentBodyGroup: 0
 --- !u!4 &1622720558
 Transform:
   m_ObjectHideFlags: 0
@@ -40003,12 +40045,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622720556}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400.00012, y: -800.00024, z: 0}
+  m_LocalScale: {x: 1.7977532, y: 1.7977532, z: 1.7977532}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 422921891}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624443585
 GameObject:
@@ -41858,7 +41900,7 @@ GameObject:
   - component: {fileID: 1727983089}
   - component: {fileID: 1727983088}
   m_Layer: 5
-  m_Name: TMP - Bench (7)
+  m_Name: TMP - RowMachine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41879,10 +41921,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 311.73, y: -345.94998}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1727983088
 MonoBehaviour:
@@ -51319,10 +51361,10 @@ RectTransform:
   m_Father: {fileID: 1259057874}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -106.85}
-  m_SizeDelta: {x: 311.73, y: 79.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2117637193
 MonoBehaviour:
