@@ -47,6 +47,8 @@ public class RandomWorkoutGenerator : MonoBehaviour
         hasPullUpBar = true;
         hasRowMachine = false;
         hasDipsBar = false;
+        desiredMinutesInWorkout = 30;
+        desiredDifficulty = 2;
     }
 
     void Update()

@@ -12,8 +12,9 @@ public class SetupPanel : MonoBehaviour {
 	[SerializeField] private GameObject _container;
 	[SerializeField] private ShadowButton _changeColorButton;
 	[SerializeField] private ShadowButton _addWorkoutPlanButton;
+	[SerializeField] private ShadowButton _workoutGeneratorButton;
 	[SerializeField] private ShadowButton _aboutButton;
-	[SerializeField] private Button _doneButton;
+    [SerializeField] private Button _doneButton;
 	[SerializeField] private Button _clickOverlay;
 	[SerializeField] private TextMeshProUGUI _title;
 
@@ -38,8 +39,9 @@ public class SetupPanel : MonoBehaviour {
 	{
 		_changeColorButton.onShortClick.AddListener (HandleChangeColorButtonPressed);
 		_addWorkoutPlanButton.onShortClick.AddListener (HandleAddWorkoutPlansPressed);
+        _workoutGeneratorButton.onShortClick.AddListener (RandomWODGeneratorMenu.Instance.Open);
 		_aboutButton.onShortClick.AddListener (HandleAboutButtonPressed);
-		_doneButton.onClick.AddListener (Exit);
+        _doneButton.onClick.AddListener (Exit);
 		_clickOverlay.onClick.AddListener(Exit);
 	}
 
@@ -47,7 +49,8 @@ public class SetupPanel : MonoBehaviour {
 	{
 		_changeColorButton.onShortClick.RemoveListener (HandleChangeColorButtonPressed);
 		_addWorkoutPlanButton.onShortClick.RemoveListener (HandleAddWorkoutPlansPressed);
-		_aboutButton.onShortClick.AddListener (HandleAboutButtonPressed);
+        _workoutGeneratorButton.onShortClick.RemoveListener(RandomWODGeneratorMenu.Instance.Open);
+        _aboutButton.onShortClick.AddListener (HandleAboutButtonPressed);
 		_doneButton.onClick.RemoveListener (Exit);
 		_clickOverlay.onClick.RemoveListener(Exit);
 	}

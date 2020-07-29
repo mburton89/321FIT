@@ -6,9 +6,12 @@ using TMPro;
 
 public class RandomWODGeneratorMenu : MonoBehaviour
 {
+    public static RandomWODGeneratorMenu Instance;
+
     [SerializeField] private RandomWorkoutGenerator _generator;
 
     [SerializeField] private GameObject _container;
+    [SerializeField] private Button _clickOverlay;
 
     [SerializeField] private TextMeshProUGUI _minutesLabel;
     [SerializeField] private TextMeshProUGUI _difficultyLabel;
@@ -28,6 +31,11 @@ public class RandomWODGeneratorMenu : MonoBehaviour
 
     [SerializeField] List<Image> _colorImages;
     [SerializeField] List<TextMeshProUGUI> _texts;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -49,10 +57,13 @@ public class RandomWODGeneratorMenu : MonoBehaviour
         _hasPullUpBar.isOn = _generator.hasPullUpBar;
         _hasBands.isOn = _generator.hasCablesOrBands;
         _hasRowMachine.isOn = _generator.hasRowMachine;
+        _minutesSlider.value = _generator.desiredMinutesInWorkout;
+        _difficultySlider.value = _generator.desiredDifficulty;
     }
 
     void OnEnable()
     {
+        _clickOverlay.onClick.AddListener(Close);
         _minutesSlider.onValueChanged.AddListener(UpdateMinutes);
         _difficultySlider.onValueChanged.AddListener(UpdateDifficulty);
         _hasAbWheel.onValueChanged.AddListener(_generator.UpdateHasAbWheel);
@@ -68,6 +79,7 @@ public class RandomWODGeneratorMenu : MonoBehaviour
 
     void OnDisable()
     {
+        _clickOverlay.onClick.RemoveListener(Close);
         _minutesSlider.onValueChanged.RemoveListener(UpdateMinutes);
         _difficultySlider.onValueChanged.RemoveListener(UpdateDifficulty);
         _hasAbWheel.onValueChanged.RemoveListener(_generator.UpdateHasAbWheel);
@@ -94,7 +106,17 @@ public class RandomWODGeneratorMenu : MonoBehaviour
 
     void GenerateWorkout()
     {
-        _container.SetActive(false);
+        Close();
         _generator.GenerateRandomWorkout();
+    }
+
+    public void Open()
+    {
+        _container.SetActive(true);
+    }
+
+    void Close()
+    {
+        _container.SetActive(false);
     }
 }
