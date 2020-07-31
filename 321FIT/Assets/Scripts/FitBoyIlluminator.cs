@@ -12,7 +12,9 @@ public class FitBoyIlluminator : MonoBehaviour {
 	public Image activeFrame;
 	[HideInInspector] public WorkoutType workoutType;
 
-	public void Init(WorkoutType workoutType)
+    [SerializeField] private GameObject wodIcon;
+
+    public void Init(WorkoutType workoutType)
 	{
 		StopCoroutine("playAnimationCo");
 		this.workoutType = workoutType;
@@ -20,7 +22,13 @@ public class FitBoyIlluminator : MonoBehaviour {
 		activeFrame.sprite = glowFrameSprite;
 		activeFrame.color = ColorManager.Instance.ActiveColorLight;
 		Play();
-	}
+
+        if (workoutType == WorkoutType.wod && wodIcon != null)
+        {
+            GameObject wodClock = Instantiate(wodIcon, transform.position, transform.rotation, transform);
+            wodClock.transform.localPosition = new Vector3(47.5f, 0, 0); //TODO GROSS
+        }
+    }
 
 	public void Play()
 	{
@@ -44,7 +52,7 @@ public class FitBoyIlluminator : MonoBehaviour {
 	void GlowIn()
 	{
 		activeFrame.DOFade (1, GLOW_DURATION);
-	}
+    }
 
 	void GlowOut()
 	{

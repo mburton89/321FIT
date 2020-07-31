@@ -30,7 +30,7 @@ public class RandomWODGeneratorMenu : MonoBehaviour
     [SerializeField] private ShadowButton _generateWorkoutButton;
 
     [SerializeField] List<Image> _colorImages;
-    [SerializeField] List<TextMeshProUGUI> _texts;
+    [SerializeField] List<TextMeshProUGUI> _texts; 
 
     private void Awake()
     {
@@ -59,6 +59,8 @@ public class RandomWODGeneratorMenu : MonoBehaviour
         _hasRowMachine.isOn = _generator.hasRowMachine;
         _minutesSlider.value = _generator.desiredMinutesInWorkout;
         _difficultySlider.value = _generator.desiredDifficulty;
+        int uiDifficulty = _generator.desiredDifficulty + 1;
+        _difficultyLabel.SetText("Difficulty: " + uiDifficulty);
     }
 
     void OnEnable()
@@ -95,12 +97,13 @@ public class RandomWODGeneratorMenu : MonoBehaviour
 
     void UpdateMinutes(float minutes)
     {
-        _minutesLabel.SetText("Minutes: ~" + _minutesSlider.value);
+        _minutesLabel.SetText("Minutes: " + _minutesSlider.value);
         _generator.UpdateMinutes(minutes);
     }
     void UpdateDifficulty(float difficulty)
     {
-        _difficultyLabel.SetText("Difficulty: " + _difficultySlider.value);
+        float uiDifficulty = _difficultySlider.value + 1;
+        _difficultyLabel.SetText("Difficulty: " + uiDifficulty);
         _generator.UpdateDifficulty(difficulty);
     }
 
