@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,10 +32,20 @@ public class SecondsEditRow : StatEditRow
 
 	public void HandleInputFieldSubmitted()
 	{
+        Debug.Log("numberInput.text " + numberInput.text);
 
-		int newValue = int.Parse (numberInput.text);
+        int newValue = 60;
 
-		if(string.IsNullOrEmpty(numberInput.text) ||  newValue < 1)
+        try
+        {
+            newValue = int.Parse(numberInput.text); //TODO this crashes iPhone!!!!!!!!
+        }
+        catch (Exception ex)
+        {
+            Debug.Log("EXCEPTION: " + ex);
+        }
+
+        if (string.IsNullOrEmpty(numberInput.text) ||  newValue < 1)
 		{
 			value = 1;
 			numberInput.text = value.ToString();
