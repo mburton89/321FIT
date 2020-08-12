@@ -98,6 +98,14 @@ public class AreYouSurePanel : MonoBehaviour
         Exit();
     }
 
+    public void DeleteWorkout(WorkoutPanel workoutPanel)
+    {
+        WorkoutManager.Instance.workoutHUD.selectedPanel = workoutPanel;
+        TrashBin.Instance.ThrowInTrash(workoutPanel.transform);
+        SaveExercisePanelOrder();
+        WorkoutManager.Instance.Save();
+    }
+
     void Exit()
     {
         _container.SetActive(false);

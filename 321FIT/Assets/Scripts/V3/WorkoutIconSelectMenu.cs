@@ -18,13 +18,16 @@ public class WorkoutIconSelectMenu : MonoBehaviour {
 
 		for(int i = 0; i < Enum.GetNames(typeof(WorkoutType)).Length; i++) 
 		{
-			SelectableWorkoutIcon newSelectableWorkoutIcon = Instantiate (selectableWorkoutIconPrefab);
-			newSelectableWorkoutIcon.controller = controller;
-			workoutType = (WorkoutType)i;
-			newSelectableWorkoutIcon.Init (workoutType);
-			newSelectableWorkoutIcon.transform.SetParent (gridLayoutGroup.transform);
-			newSelectableWorkoutIcon.transform.localScale = Vector3.one;
-			newSelectableWorkoutIcon.bg.color = ColorManager.Instance.ActiveColorLight;
+            if ((WorkoutType)i != WorkoutType.wod)
+            {
+                SelectableWorkoutIcon newSelectableWorkoutIcon = Instantiate(selectableWorkoutIconPrefab);
+                newSelectableWorkoutIcon.controller = controller;
+                workoutType = (WorkoutType)i;
+                newSelectableWorkoutIcon.Init(workoutType);
+                newSelectableWorkoutIcon.transform.SetParent(gridLayoutGroup.transform);
+                newSelectableWorkoutIcon.transform.localScale = Vector3.one;
+                newSelectableWorkoutIcon.bg.color = ColorManager.Instance.ActiveColorLight;
+            }
 		}
 	}
 

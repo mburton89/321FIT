@@ -59,7 +59,7 @@ public class AddPlanPanel : MonoBehaviour {
 		_skipButton.onShortClick.AddListener (HandleSkipPressed);
 		_choosePlanButton.onShortClick.AddListener (HandleChoosePlanPressed);
 		_backButton.onShortClick.AddListener (HandleBackPressed);
-		_clickOverlay.onClick.AddListener(Exit);
+		//_clickOverlay.onClick.AddListener(Exit);
 	}
 
 	void OnDisable()
@@ -67,7 +67,7 @@ public class AddPlanPanel : MonoBehaviour {
 		_skipButton.onShortClick.RemoveListener (HandleSkipPressed);
 		_choosePlanButton.onShortClick.RemoveListener (HandleChoosePlanPressed);
 		_backButton.onShortClick.RemoveListener (HandleBackPressed);
-		_clickOverlay.onClick.RemoveListener(Exit);
+		//_clickOverlay.onClick.RemoveListener(Exit);
 	}
 
 	public void ShowPlans()

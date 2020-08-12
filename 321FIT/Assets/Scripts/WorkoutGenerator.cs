@@ -20,65 +20,65 @@ public class WorkoutGenerator : MonoBehaviour {
 	public PilatesBeginnerUpperBodyWorkout pilatesUpperBody;
 
 	//PRELOADED EXERCISES
-	ExerciseData abWheelExercise = new ExerciseData();
-	ExerciseData bandsExternalExercise = new ExerciseData(); //2/19/2019
-	ExerciseData bandsInternalExercise = new ExerciseData(); //2/19/2019
-	ExerciseData benchPressExercise = new ExerciseData();
-	ExerciseData bentOverRowExercise = new ExerciseData();
-	ExerciseData bodySquatsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData boxJumpsExercise = new ExerciseData();
-	ExerciseData calfRaisesExercise = new ExerciseData();
-	ExerciseData chairDipsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData chinUpsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData cleansExercise = new ExerciseData();
-	ExerciseData cleanPressExercise = new ExerciseData(); //2/19/2019
-	ExerciseData crunchesExercise = new ExerciseData(); //2/19/2019
-	ExerciseData curlsExercise = new ExerciseData();
-	ExerciseData dbFrontRaisesExercise = new ExerciseData();
-	ExerciseData dbRowsExercise = new ExerciseData();
-	ExerciseData dbShoulderPressExercise = new ExerciseData();
-	ExerciseData dbSideRaisesExercise = new ExerciseData();
-	ExerciseData dbToeTouchesExercise = new ExerciseData(); //2/19/2019
-	ExerciseData deadliftsExercise = new ExerciseData();
-	ExerciseData dipsExercise = new ExerciseData();
-	ExerciseData hammerCurlsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData hangingKneeRaisesExercise = new ExerciseData(); //2/19/2019
-	ExerciseData inclineBenchExercise = new ExerciseData();
-	ExerciseData jumpingJacksExercise = new ExerciseData();
-	ExerciseData lungesExercise = new ExerciseData();
-	ExerciseData militaryPressExercise = new ExerciseData(); //2/19/2019
-	ExerciseData modifiedPushupsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData obliqueSideRaisesExercise = new ExerciseData(); //2/19/2019
-	ExerciseData overheadTricepExtensionsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData reverseCurlsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData reverseFliesExercise = new ExerciseData(); //2/19/2019
-	ExerciseData rowMachineExercise = new ExerciseData(); //2/19/2019
-	ExerciseData planksBackExercise = new ExerciseData(); //2/19/2019
-	ExerciseData planksFrontExercise = new ExerciseData();
-	ExerciseData planksSideExercise = new ExerciseData(); //2/19/2019
-	ExerciseData pullUpsExercise = new ExerciseData();
-	ExerciseData pushupsExercise = new ExerciseData();
-	ExerciseData runningExercise = new ExerciseData();
-	ExerciseData shrugsExercise = new ExerciseData();
-	ExerciseData skullCrushersExercise = new ExerciseData(); //2/19/2019
-	ExerciseData squatsExercise = new ExerciseData();
-	ExerciseData squatJumpsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData straightLegDeadliftExercise = new ExerciseData(); //2/19/2019
-	ExerciseData tricepKickBackExercise = new ExerciseData();
-	ExerciseData uprightRowsExercise = new ExerciseData(); //2/19/2019
-	ExerciseData windmillsExercise = new ExerciseData(); //2/19/2019
+	public ExerciseData abWheelExercise = new ExerciseData();
+    public ExerciseData bandsExternalExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData bandsInternalExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData benchPressExercise = new ExerciseData();
+    public ExerciseData bentOverRowExercise = new ExerciseData();
+    public ExerciseData bodySquatsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData boxJumpsExercise = new ExerciseData();
+    public ExerciseData calfRaisesExercise = new ExerciseData();
+    public ExerciseData chairDipsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData chinUpsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData cleansExercise = new ExerciseData();
+    public ExerciseData cleanPressExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData crunchesExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData curlsExercise = new ExerciseData();
+    public ExerciseData dbFrontRaisesExercise = new ExerciseData();
+    public ExerciseData dbRowsExercise = new ExerciseData();
+    public ExerciseData dbShoulderPressExercise = new ExerciseData();
+    public ExerciseData dbSideRaisesExercise = new ExerciseData();
+    public ExerciseData dbToeTouchesExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData deadliftsExercise = new ExerciseData();
+    public ExerciseData dipsExercise = new ExerciseData();
+    public ExerciseData hammerCurlsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData hangingKneeRaisesExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData inclineBenchExercise = new ExerciseData();
+    public ExerciseData jumpingJacksExercise = new ExerciseData();
+    public ExerciseData lungesExercise = new ExerciseData();
+    public ExerciseData militaryPressExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData modifiedPushupsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData obliqueSideRaisesExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData overheadTricepExtensionsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData reverseCurlsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData reverseFliesExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData rowMachineExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData planksBackExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData planksFrontExercise = new ExerciseData();
+    public ExerciseData planksSideExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData pullUpsExercise = new ExerciseData();
+    public ExerciseData pushupsExercise = new ExerciseData();
+    public ExerciseData runningExercise = new ExerciseData();
+    public ExerciseData shrugsExercise = new ExerciseData();
+    public ExerciseData skullCrushersExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData squatsExercise = new ExerciseData();
+    public ExerciseData squatJumpsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData straightLegDeadliftExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData tricepKickBackExercise = new ExerciseData();
+    public ExerciseData uprightRowsExercise = new ExerciseData(); //2/19/2019
+    public ExerciseData windmillsExercise = new ExerciseData(); //2/19/2019
 
     //no Weights
-    ExerciseData burpeesExercise = new ExerciseData();
-    ExerciseData clappingPushUpsExercise = new ExerciseData();
-    ExerciseData donkeyKicksExercise = new ExerciseData();
-    ExerciseData flutterKicksExercise = new ExerciseData();
-    ExerciseData jogInPlaceExercise = new ExerciseData();
-    ExerciseData jumpRopeExercise = new ExerciseData();
-    ExerciseData legRaisesExercise = new ExerciseData();
-    ExerciseData reverseCrunchesExercise = new ExerciseData();
-    ExerciseData supermanExercise = new ExerciseData();
-    ExerciseData wallSitExercise = new ExerciseData();
+    public ExerciseData burpeesExercise = new ExerciseData();
+    public ExerciseData clappingPushUpsExercise = new ExerciseData();
+    public ExerciseData donkeyKicksExercise = new ExerciseData();
+    public ExerciseData flutterKicksExercise = new ExerciseData();
+    public ExerciseData jogInPlaceExercise = new ExerciseData();
+    public ExerciseData jumpRopeExercise = new ExerciseData();
+    public ExerciseData legRaisesExercise = new ExerciseData();
+    public ExerciseData reverseCrunchesExercise = new ExerciseData();
+    public ExerciseData supermanExercise = new ExerciseData();
+    public ExerciseData wallSitExercise = new ExerciseData();
 
 
     //SPRITES FOR FITBOY ANIMATIONS 
@@ -170,7 +170,8 @@ public class WorkoutGenerator : MonoBehaviour {
 		day4,
 		day5,
 		day6,
-		day7;
+		day7,
+        wod;
 
 	[HideInInspector]public List<Sprite> listOfWorktoutSprites = new List<Sprite>();
 
@@ -245,27 +246,27 @@ public class WorkoutGenerator : MonoBehaviour {
 		abWheelExercise.Init("Ab Wheel", 60, 3, 10, 0, ExerciseType.abWheel);
 		bandsExternalExercise.Init ("Bands - External", 90, 3, 10, 0, ExerciseType.bandsExternal);
 		bandsInternalExercise.Init ("Bands - Internal", 90, 3, 10, 0, ExerciseType.bandsInternal);
-		benchPressExercise.Init("Bench Press", 90, 3, 10, 45, ExerciseType.benchPress);
-		bentOverRowExercise.Init("Bent Over Rows", 90, 3, 10, 45, ExerciseType.bentOverRow);
+		benchPressExercise.Init("Bench Press", 90, 3, 10, 0, ExerciseType.benchPress);
+		bentOverRowExercise.Init("Bent Over Rows", 90, 3, 10, 0, ExerciseType.bentOverRow);
 		bodySquatsExercise.Init ("Body Squats", 90, 3, 10, 0, ExerciseType.bodySquats);
 		boxJumpsExercise.Init("Box Jumps", 60, 3, 10, 0, ExerciseType.boxJumps);
 		calfRaisesExercise.Init("Calf Raises", 60, 3, 10, 0, ExerciseType.calfRaises);
 		chairDipsExercise.Init("Chair Dips", 90, 3, 10, 0, ExerciseType.chairDips);
 		chinUpsExercise.Init("Chin Ups", 90, 3, 10, 0, ExerciseType.chinUps);
-		cleansExercise.Init("Cleans", 90, 3, 10, 45, ExerciseType.cleans);
+		cleansExercise.Init("Cleans", 90, 3, 10, 0, ExerciseType.cleans);
 		cleanPressExercise.Init("Clean Press", 90, 3, 10, 0, ExerciseType.cleanPress);
 		crunchesExercise.Init("Crunches", 90, 3, 10, 0, ExerciseType.crunches);
-		curlsExercise.Init("Curls", 60, 3, 10, 5, ExerciseType.curls);
-		dbFrontRaisesExercise.Init("DB Front Raises", 60, 3, 10, 5, ExerciseType.dbFrontRaises);
-		dbRowsExercise.Init("DB Rows", 60, 3, 10, 5, ExerciseType.dbRows);
-		dbShoulderPressExercise.Init("DB Shoulder Press", 60, 3, 10, 5, ExerciseType.db_shoulder_press);
-		dbSideRaisesExercise.Init("DB Side Raises", 60, 3, 10, 5, ExerciseType.db_side_raises);
+		curlsExercise.Init("Curls", 60, 3, 10, 0, ExerciseType.curls);
+		dbFrontRaisesExercise.Init("DB Front Raises", 60, 3, 10, 0, ExerciseType.dbFrontRaises);
+		dbRowsExercise.Init("DB Rows", 60, 3, 10, 0, ExerciseType.dbRows);
+		dbShoulderPressExercise.Init("DB Shoulder Press", 60, 3, 10, 0, ExerciseType.db_shoulder_press);
+		dbSideRaisesExercise.Init("DB Side Raises", 60, 3, 10, 0, ExerciseType.db_side_raises);
 		dbToeTouchesExercise.Init("DB Toe Touches", 90, 3, 10, 0, ExerciseType.dbToeTouches);
-		deadliftsExercise.Init("Deadlifts", 90, 3, 10, 45, ExerciseType.deadlifts);
+		deadliftsExercise.Init("Deadlifts", 90, 3, 10, 0, ExerciseType.deadlifts);
 		dipsExercise.Init("Dips", 90, 3, 10, 0, ExerciseType.dips);
 		hammerCurlsExercise.Init("Hammer Curls", 90, 3, 10, 0, ExerciseType.hammerCurls);
 		hangingKneeRaisesExercise.Init("Hanging Knee Raises", 90, 3, 10, 0, ExerciseType.hangingKneeRaises);
-		inclineBenchExercise.Init("Incline Bench", 90, 3, 10, 45, ExerciseType.inclineBench);
+		inclineBenchExercise.Init("Incline Bench", 90, 3, 10, 0, ExerciseType.inclineBench);
 		jumpingJacksExercise.Init("Jumping Jacks", 60, 3, 10, 0, ExerciseType.jumpingJacks);
 		lungesExercise.Init("Lunges", 60, 3, 10, 0, ExerciseType.lunges);
 		militaryPressExercise.Init("Military Press", 90, 3, 10, 0, ExerciseType.militaryPress);
@@ -281,12 +282,12 @@ public class WorkoutGenerator : MonoBehaviour {
 		pullUpsExercise.Init("Pullups", 90, 3, 5, 0, ExerciseType.pullUps);
 		pushupsExercise.Init("Pushups", 60, 3, 10, 0, ExerciseType.pushups);
 		runningExercise.Init("Run!", 300, 1, 1, 0, ExerciseType.running);
-		shrugsExercise.Init("Shrugs", 60, 3, 10, 5, ExerciseType.shrugs);
+		shrugsExercise.Init("Shrugs", 60, 3, 10, 0, ExerciseType.shrugs);
 		skullCrushersExercise.Init("Skull Crushers", 90, 3, 10, 0, ExerciseType.skullCrushers);
-		squatsExercise.Init("Squats", 90, 3, 10, 45, ExerciseType.squats);
+		squatsExercise.Init("Squats", 90, 3, 10, 0, ExerciseType.squats);
 		squatJumpsExercise.Init("Squat Jumps", 90, 3, 10, 0, ExerciseType.squatJumps);
 		straightLegDeadliftExercise.Init("Straight Leg Deadlift", 90, 3, 10, 0, ExerciseType.straightLegDeadlift);
-		tricepKickBackExercise.Init("Tricep Kick Backs", 60, 3, 10, 5, ExerciseType.tricepKickBack);
+		tricepKickBackExercise.Init("Tricep Kick Backs", 60, 3, 10, 0, ExerciseType.tricepKickBack);
 		uprightRowsExercise.Init("Upright Rows", 90, 3, 10, 0, ExerciseType.uprightRows);
 		windmillsExercise.Init("Windmills", 90, 3, 10, 0, ExerciseType.windmills);
 
@@ -450,10 +451,11 @@ public class WorkoutGenerator : MonoBehaviour {
 		listOfWorktoutSprites.Add(day4);
 		listOfWorktoutSprites.Add(day5);
 		listOfWorktoutSprites.Add(day6);
-		listOfWorktoutSprites.Add(day7);
-	}
+        listOfWorktoutSprites.Add(day7);
+        listOfWorktoutSprites.Add(wod);
+    }
 
-	void AddPlanSpriteToPlanSpriteList()
+    void AddPlanSpriteToPlanSpriteList()
 	{
 		listOfDifficultySprites.Add(easy);
 		listOfDifficultySprites.Add(medium);

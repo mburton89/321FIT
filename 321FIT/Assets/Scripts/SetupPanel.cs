@@ -12,9 +12,11 @@ public class SetupPanel : MonoBehaviour {
 	[SerializeField] private GameObject _container;
 	[SerializeField] private ShadowButton _changeColorButton;
 	[SerializeField] private ShadowButton _addWorkoutPlanButton;
+	[SerializeField] private ShadowButton _workoutGeneratorButton;
 	[SerializeField] private ShadowButton _aboutButton;
-	[SerializeField] private Button _doneButton;
-	[SerializeField] private Button _clickOverlay;
+	[SerializeField] private ShadowButton _tutorialsButton;
+    [SerializeField] private Button _doneButton;
+    [SerializeField] private Button _clickOverlay;
 	[SerializeField] private TextMeshProUGUI _title;
 
 	[SerializeField] List<Image> _colorImages;
@@ -38,17 +40,21 @@ public class SetupPanel : MonoBehaviour {
 	{
 		_changeColorButton.onShortClick.AddListener (HandleChangeColorButtonPressed);
 		_addWorkoutPlanButton.onShortClick.AddListener (HandleAddWorkoutPlansPressed);
+        _workoutGeneratorButton.onShortClick.AddListener (HandleWODGeneratorPressed);
 		_aboutButton.onShortClick.AddListener (HandleAboutButtonPressed);
-		_doneButton.onClick.AddListener (Exit);
-		_clickOverlay.onClick.AddListener(Exit);
+        _tutorialsButton.onShortClick.AddListener (HandleTutorialsButtonPressed);
+        _doneButton.onClick.AddListener (Exit);
+        _clickOverlay.onClick.AddListener(Exit);
 	}
 
 	void OnDisable()
 	{
 		_changeColorButton.onShortClick.RemoveListener (HandleChangeColorButtonPressed);
 		_addWorkoutPlanButton.onShortClick.RemoveListener (HandleAddWorkoutPlansPressed);
-		_aboutButton.onShortClick.AddListener (HandleAboutButtonPressed);
-		_doneButton.onClick.RemoveListener (Exit);
+        _workoutGeneratorButton.onShortClick.RemoveListener(HandleWODGeneratorPressed);
+        _aboutButton.onShortClick.RemoveListener(HandleAboutButtonPressed);
+        _tutorialsButton.onShortClick.RemoveListener(HandleTutorialsButtonPressed);
+        _doneButton.onClick.RemoveListener (Exit);
 		_clickOverlay.onClick.RemoveListener(Exit);
 	}
 
@@ -80,7 +86,18 @@ public class SetupPanel : MonoBehaviour {
 		SceneManager.LoadScene (2);
 	}
 
-	void HandleAboutButtonPressed()
+    void HandleWODGeneratorPressed()
+    {
+        _container.SetActive(false);
+        RandomWODGeneratorMenu.Instance.Open();
+    }
+
+    void HandleTutorialsButtonPressed()
+    {
+        Application.OpenURL("https://www.instagram.com/321fitapp/");
+    }
+
+    void HandleAboutButtonPressed()
 	{
 		_title.text = "About";
 		_aboutPage.Open ();

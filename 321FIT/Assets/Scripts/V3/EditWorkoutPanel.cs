@@ -46,14 +46,23 @@ public class EditWorkoutPanel : MonoBehaviour
 		foreach (TextMeshProUGUI text in _texts)
 		{
 			text.color = ColorManager.Instance.ActiveColorLight;	
-		}	
+		}
 
-		#if UNITY_ANDROID
-		//Do nothing
-		#else
+        if (currentWorkoutData.hasTenSecTimer)
+        {
+            _tenSecSlider.value = 0;
+        }
+        else
+        {
+            _tenSecSlider.value = 1;
+        }
+
+        #if UNITY_ANDROID
+        //Do nothing
+#else
 		_secondsBetweenExercisesInputField.shouldHideMobileInput = false;
-		#endif
-	}
+#endif
+    }
 
 	public void Init(WorkoutData workoutToEdit, bool isCreatingNewWorkout, bool shouldAutoSelectInputField)
 	{

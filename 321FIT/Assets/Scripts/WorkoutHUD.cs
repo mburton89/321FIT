@@ -33,13 +33,16 @@ public class WorkoutHUD : MonoBehaviour {
 
 	void Awake()
 	{
-		if(Instance == null){
+		if(Instance == null)
+        {
 			Instance = this;
 		}
 	}
 
-	void Start(){
-		foreach(WorkoutData workout in WorkoutManager.Instance.workoutData){
+	void Start()
+    {
+		foreach(WorkoutData workout in WorkoutManager.Instance.workoutData)
+        {
 			AddWorkoutPanel(workout, false);
 		}
 

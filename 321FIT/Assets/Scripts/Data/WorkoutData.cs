@@ -28,7 +28,8 @@ public enum WorkoutType
 	day4,
 	day5,
 	day6,
-	day7
+	day7,
+    wod
 }
 
 [System.Serializable]

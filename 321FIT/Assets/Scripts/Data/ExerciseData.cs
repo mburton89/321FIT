@@ -96,7 +96,14 @@ public class ExerciseData
 		return newExercise;
 	}
 
-	public void Init(string name, int seconds, int totalSets, int reps, int weight, ExerciseType exerciseType)
+    public static ExerciseData Copy(ExerciseData exerciseData)
+    {
+        ExerciseData newExercise = new ExerciseData();
+        newExercise = exerciseData;
+        return newExercise;
+    }
+
+    public void Init(string name, int seconds, int totalSets, int reps, int weight, ExerciseType exerciseType)
 	{
 		this.name = name;
 		this.secondsToCompleteSet = seconds;

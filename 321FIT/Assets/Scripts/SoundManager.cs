@@ -14,9 +14,13 @@ public class SoundManager : MonoBehaviour {
 	public AudioClip goBack;
 	public AudioClip countdownBeep;
 	public AudioClip airHorn;
-	public AudioClip tenSecWarning;
+    public AudioClip tenSecWarning;
 
-	public AudioSource audioSource;
+    public AudioClip robo3;
+    public AudioClip robo2;
+    public AudioClip robo1;
+
+    public AudioSource audioSource;
 
 	void Awake () {
 		Instance = this;
@@ -68,4 +72,22 @@ public class SoundManager : MonoBehaviour {
 		audioSource.clip = tenSecWarning;
 		audioSource.Play ();
 	}
+
+    public void PlayRobo3()
+    {
+        audioSource.clip = robo3;
+        audioSource.Play();
+    }
+
+    public void PlayRobo2()
+    {
+        audioSource.clip = robo2;
+        audioSource.Play();
+    }
+
+    public void PlayRobo1()
+    {
+        audioSource.clip = robo1;
+        audioSource.Play();
+    }
 }

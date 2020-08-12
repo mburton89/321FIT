@@ -55,7 +55,7 @@ public class AboutPage : MonoBehaviour
 
 	void HandleInstagramButtonPressed()
 	{
-		Application.OpenURL ("https://www.instagram.com/thenerdlete/");
+		Application.OpenURL ("https://www.instagram.com/321fitapp/");
 	}
 
 	void SendEmail ()

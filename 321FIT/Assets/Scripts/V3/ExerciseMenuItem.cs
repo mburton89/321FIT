@@ -99,19 +99,31 @@ public class ExerciseMenuItem : UIPanel {
 
 	public void UpdateStatsText(int sets, int reps, int weight, int seconds)
 	{
+        string weightString = "";
+        if (weight > 0)
+        {
+            weightString = "   " + weight + PlayerPrefs.GetString("weightType");
+        }
+
 		statsText.text = sets 
 			+ "x" + reps 
-			+ "   " + weight + PlayerPrefs.GetString ("weightType")
-			+ "   " + seconds
+			+ weightString
+            + "   " + seconds
 			+ "s";
 	}
 
 	public void UpdateStatsText()
 	{
-		statsText.text = exerciseData.totalInitialSets 
+        string weightString = "";
+        if (exerciseData.weight > 0)
+        {
+            weightString = "   " + exerciseData.weight + PlayerPrefs.GetString("weightType");
+        }
+
+        statsText.text = exerciseData.totalInitialSets 
 			+ "x" + exerciseData.repsPerSet 
-			+ "   " + exerciseData.weight + PlayerPrefs.GetString ("weightType")
-			+ "   " + exerciseData.secondsToCompleteSet
+			+ weightString
+            + "   " + exerciseData.secondsToCompleteSet
 			+ "s";
 	}
 
