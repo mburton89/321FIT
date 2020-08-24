@@ -24,7 +24,7 @@ public class ScanlineController : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        else
+        else if(SceneManager.GetActiveScene().buildIndex != 2)
         {
             StartCoroutine(Fade());
         }

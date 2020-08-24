@@ -28,7 +28,8 @@ public class WorkoutManager : MonoBehaviour {
 			PlayerPrefs.SetString("userTitle", "Workouts");
 			PlayerPrefs.SetString ("weightType", "lb");
 			PlayerPrefs.SetFloat ("scanlines", 0.25f);
-		}
+            PlayerPrefs.SetInt("selectableColor", -1);
+        }
 
 		Application.runInBackground = true;
 
