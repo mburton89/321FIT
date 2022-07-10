@@ -16,7 +16,8 @@ public class WorkoutManager : MonoBehaviour {
 
 	void Awake(){
 
-		//PlayerPrefs.DeleteAll ();
+        //PlayerPrefs.DeleteAll ();
+        Application.targetFrameRate = 60;
 
 		if(Instance == null){
 			Instance = this;

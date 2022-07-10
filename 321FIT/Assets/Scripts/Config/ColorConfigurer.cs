@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System;
+using System.Collections.ObjectModel;
+using System.Reflection;
+using System.Linq;
+
 
 public class ColorConfigurer : MonoBehaviour {
 
 	float m_Hue;
 	float m_Saturation;
+	float m_Glow;
 	float m_Scanlines;
 	public Slider m_SliderHue, m_SliderSaturation, m_SliderScanlines;
 	public ShadowButton confirmButton;
@@ -16,6 +23,8 @@ public class ColorConfigurer : MonoBehaviour {
 	[SerializeField] private Image[] _images;
 
 	[SerializeField] private TextMeshProUGUI _headerTitle;
+
+    
 
 	void OnEnable()
 	{
@@ -42,7 +51,7 @@ public class ColorConfigurer : MonoBehaviour {
 		m_SliderScanlines.value = PlayerPrefs.GetFloat("scanlines");
 
 		_headerTitle.text = PlayerPrefs.GetString("userTitle");
-	}
+    }
 
 	void Update()
 	{
