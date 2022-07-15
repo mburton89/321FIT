@@ -29,6 +29,7 @@ public class AppUpdatePanel : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.SetInt("hasSeenUpdate", 1);
         if (PlayerPrefs.GetInt("hasSeenUpdate") != 1)
         {
             Open();
