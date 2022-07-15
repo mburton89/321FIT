@@ -24,8 +24,8 @@ public class ColorManager : MonoBehaviour {
 	private const float DEFAULT_HUE = 191f/359f;
 	private const float DEFAULT_SATURATION = 115f/255f;
 
-	private const float MEDIUM_DARKENER_DIVIDER = 1.25f;
-	private const float DARK_DARKENER_DIVIDER = 2.5f;
+	private const float MEDIUM_DARKENER_DIVIDER = 1.4f;
+	private const float DARK_DARKENER_DIVIDER = 2.6f;
 
 	void Awake()
 	{
