@@ -23,7 +23,7 @@ public class WODIcon : MonoBehaviour
 
     void Update()
     {
-        _minutesHand.Rotate(_rotation * _speed);
-        _hoursHand.Rotate(_rotation * _speed/12);
+        _minutesHand.Rotate(_rotation * _speed * 2);
+        _hoursHand.Rotate(_rotation * _speed/6);
     }
 }

@@ -6,7 +6,8 @@ public enum PlanDifficulty
 {
 	easy,
 	medium,
-	hard
+	hard,
+    d10
 }
 
 [System.Serializable]

@@ -1362,6 +1362,7 @@ Transform:
   - {fileID: 1542287915}
   - {fileID: 2045071882}
   - {fileID: 777168361}
+  - {fileID: 1968659880}
   m_Father: {fileID: 490116128}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9778,6 +9779,58 @@ MonoBehaviour:
   - {fileID: 131457071}
   - {fileID: 1196705683}
   - {fileID: 1727983088}
+--- !u!1 &426676968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 426676969}
+  - component: {fileID: 426676970}
+  m_Layer: 0
+  m_Name: D10 - Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &426676969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426676968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1968659880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &426676970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426676968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5704e1d2e4ec48645bb7e101e1f182f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workoutData:
+    name: 
+    exerciseData: []
+    seconds: 0
+    minutes: 0
+    secondsBetweenExercises: 0
+    workoutType: 0
+    inProgress: 0
+    hasTenSecTimer: 0
 --- !u!1 &434420723
 GameObject:
   m_ObjectHideFlags: 0
@@ -11378,6 +11431,7 @@ MonoBehaviour:
   homeBeginnerPlan: {fileID: 1542287916}
   homeIntermediatePlan: {fileID: 2045071883}
   gymAdvancedPlan: {fileID: 777168362}
+  dTenPlan: {fileID: 1968659881}
   pilatesLowerBody: {fileID: 2109790824}
   pilatesUpperBody: {fileID: 1109920470}
   abWheelExercise:
@@ -12286,6 +12340,7 @@ MonoBehaviour:
   easy: {fileID: 21300000, guid: e0ef9544be1e0624bbbb4b42ce3f38af, type: 3}
   medium: {fileID: 21300000, guid: e6ee4e115c97e024ebf9b145b4905af2, type: 3}
   hard: {fileID: 21300000, guid: 7baab7b8febb4c5489f7fbd96d518467, type: 3}
+  d10: {fileID: 21300000, guid: 07a372b66469de04b9060d10953bb0e2, type: 3}
   listOfDifficultySprites: []
 --- !u!4 &490116128
 Transform:
@@ -20654,6 +20709,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796727455}
   m_CullTransparentMesh: 0
+--- !u!1 &797292077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797292078}
+  - component: {fileID: 797292079}
+  m_Layer: 0
+  m_Name: D10 - Shoulders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797292078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797292077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1968659880}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &797292079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797292077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56bf5d3daee58d47a8e371d3fff9013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workoutData:
+    name: 
+    exerciseData: []
+    seconds: 0
+    minutes: 0
+    secondsBetweenExercises: 0
+    workoutType: 0
+    inProgress: 0
+    hasTenSecTimer: 0
 --- !u!1 &799647285
 GameObject:
   m_ObjectHideFlags: 0
@@ -27568,6 +27675,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082204331}
   m_CullTransparentMesh: 0
+--- !u!1 &1083708701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083708702}
+  - component: {fileID: 1083708703}
+  m_Layer: 0
+  m_Name: D10 - Chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1083708702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083708701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1968659880}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1083708703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083708701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6d6390cc24bff4faee60fabc36b950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workoutData:
+    name: 
+    exerciseData: []
+    seconds: 0
+    minutes: 0
+    secondsBetweenExercises: 0
+    workoutType: 0
+    inProgress: 0
+    hasTenSecTimer: 0
 --- !u!1 &1086602570
 GameObject:
   m_ObjectHideFlags: 0
@@ -29590,6 +29749,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -65
       objectReference: {fileID: 0}
+    - target: {fileID: 8178892967388143401, guid: 52869c223e0e66845a71526de538ffe5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52869c223e0e66845a71526de538ffe5, type: 3}
 --- !u!1 &1155976253
@@ -31356,6 +31520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178892967388143401, guid: 52869c223e0e66845a71526de538ffe5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52869c223e0e66845a71526de538ffe5, type: 3}
@@ -33989,6 +34158,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339082296}
   m_CullTransparentMesh: 0
+--- !u!1 &1351320232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351320233}
+  - component: {fileID: 1351320234}
+  m_Layer: 0
+  m_Name: D10 - Legs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351320233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351320232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1968659880}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351320234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351320232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d0c37fa3ecbde4e9c3c8a7aa9441c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workoutData:
+    name: 
+    exerciseData: []
+    seconds: 0
+    minutes: 0
+    secondsBetweenExercises: 0
+    workoutType: 0
+    inProgress: 0
+    hasTenSecTimer: 0
 --- !u!1 &1359674836
 GameObject:
   m_ObjectHideFlags: 0
@@ -34435,6 +34656,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 969000143846371842, guid: 9403a520541f66b42a2187cd36ad48bc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9403a520541f66b42a2187cd36ad48bc, type: 3}
@@ -37744,6 +37970,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1763938133671650, guid: 6b288a701c2df95468fe77e671b9da59, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 97582725266519950, guid: 6b288a701c2df95468fe77e671b9da59,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114755183796335046, guid: 6b288a701c2df95468fe77e671b9da59,
@@ -41372,7 +41603,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1663804302}
   m_TextViewport: {fileID: 1643903627}
   m_TextComponent: {fileID: 601307960}
@@ -45524,6 +45755,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865762848}
   m_CullTransparentMesh: 0
+--- !u!1 &1869227280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869227281}
+  - component: {fileID: 1869227282}
+  m_Layer: 0
+  m_Name: D10 - Track
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1869227281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869227280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1968659880}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1869227282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869227280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2722bf39a93c444d8c08583c4ef2c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workoutData:
+    name: 
+    exerciseData: []
+    seconds: 0
+    minutes: 0
+    secondsBetweenExercises: 0
+    workoutType: 0
+    inProgress: 0
+    hasTenSecTimer: 0
 --- !u!1 &1878847314
 GameObject:
   m_ObjectHideFlags: 0
@@ -48380,6 +48663,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &1968659879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968659880}
+  - component: {fileID: 1968659881}
+  m_Layer: 0
+  m_Name: D10Plan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968659880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968659879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 426676969}
+  - {fileID: 1083708702}
+  - {fileID: 1351320233}
+  - {fileID: 797292078}
+  - {fileID: 1869227281}
+  m_Father: {fileID: 58155644}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1968659881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968659879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16735432004439849808b9c9e7b8be37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planData:
+    planDifficulty: 2
+    name: 
+    description: 
+    workoutData: []
+    usesWeights: 0
+    levelLabel: 
+  dTenBack: {fileID: 426676970}
+  dTenChest: {fileID: 1083708703}
+  dTenLegs: {fileID: 1351320234}
+  dTenShoulders: {fileID: 797292079}
+  dTenTrack: {fileID: 1869227282}
 --- !u!1 &1968666538
 GameObject:
   m_ObjectHideFlags: 0

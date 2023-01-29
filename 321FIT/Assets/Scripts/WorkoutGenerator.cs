@@ -14,6 +14,7 @@ public class WorkoutGenerator : MonoBehaviour {
 	public HomeBeginnerPlan homeBeginnerPlan;
 	public HomeIntermediatePlan homeIntermediatePlan;
 	public GymAdvancedPlan gymAdvancedPlan;
+    public DTenPlan dTenPlan;
 
 	//STANDALONE WORKOUTS;
 	public PilatesBeginnerLowerBodyWorkout pilatesLowerBody;
@@ -179,7 +180,8 @@ public class WorkoutGenerator : MonoBehaviour {
 	public Sprite 
 	easy,
 	medium,
-	hard;
+	hard,
+    d10;
 
 	[HideInInspector]public List<Sprite> listOfDifficultySprites = new List<Sprite>();
     
@@ -218,6 +220,7 @@ public class WorkoutGenerator : MonoBehaviour {
 		preloadedPlans.Add (homeBeginnerPlan.planData);
 		preloadedPlans.Add (homeIntermediatePlan.planData);
 		preloadedPlans.Add (gymAdvancedPlan.planData);
+        preloadedPlans.Add (dTenPlan.planData);
 	}
 
     void AddWorkoutsToPreloadedWorkoutsList()
@@ -239,7 +242,12 @@ public class WorkoutGenerator : MonoBehaviour {
 		{
 			preloadedWorkouts.Add (workout);
 		}
-	}
+
+        foreach (WorkoutData workout in dTenPlan.planData.workoutData)
+        {
+            preloadedWorkouts.Add(workout);
+        }
+    }
 
 	void AddExercisesToPreloadedExercisesList()
 	{
@@ -460,5 +468,6 @@ public class WorkoutGenerator : MonoBehaviour {
 		listOfDifficultySprites.Add(easy);
 		listOfDifficultySprites.Add(medium);
 		listOfDifficultySprites.Add(hard);
-	}
+		listOfDifficultySprites.Add(d10);
+    }
 }
