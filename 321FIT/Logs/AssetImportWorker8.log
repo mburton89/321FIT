@@ -1,0 +1,1934 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+/Users/matthewburton/Documents/GitHub/321FIT/321FIT
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57232
+Successfully changed project path to: /Users/matthewburton/Documents/GitHub/321FIT/321FIT
+/Users/matthewburton/Documents/GitHub/321FIT/321FIT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704594531968] Host "[IP] 192.168.13.185 [Port] 0 [Flags] 2 [Guid] 3691109896 [EditorId] 3691109896 [Version] 1048832 [Id] OSXEditor(0,MBurton.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704594531968] Host "[IP] 192.168.13.185 [Port] 0 [Flags] 2 [Guid] 3691109896 [EditorId] 3691109896 [Version] 1048832 [Id] OSXEditor(0,MBurton.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/matthewburton/Documents/GitHub/321FIT/321FIT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56841
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001950 seconds.
+- Loaded All Assemblies, in  0.372 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.390 seconds
+Domain Reload Profiling: 763ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (128ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1602ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.3 MB). Loaded Objects now: 3231.
+Memory consumption went from 134.1 MB to 132.8 MB.
+Total: 7.984756 ms (FindLiveObjects: 0.359908 ms CreateObjectMapping: 0.174159 ms MarkObjects: 7.126275 ms  DeleteObjects: 0.323581 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120817.509787 seconds.
+  path: Assets/WorkoutPlayer/Scripts/ExerciseStatsController.cs
+  artifactKey: Guid(e6c3aa1c205bb154f8297c5f80e11782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Scripts/ExerciseStatsController.cs using Guid(e6c3aa1c205bb154f8297c5f80e11782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc7576a3c0e3361bf4a99e712b292b4') in 0.001800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 1743ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3234.
+Memory consumption went from 131.6 MB to 130.3 MB.
+Total: 8.885072 ms (FindLiveObjects: 0.226351 ms CreateObjectMapping: 0.196609 ms MarkObjects: 8.194203 ms  DeleteObjects: 0.266881 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.661836 seconds.
+  path: Assets/WorkoutPlayer/Scripts/ExerciseStatsController.cs
+  artifactKey: Guid(e6c3aa1c205bb154f8297c5f80e11782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Scripts/ExerciseStatsController.cs using Guid(e6c3aa1c205bb154f8297c5f80e11782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c84163485ff43d81a61d86ba8633b80') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.160871 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63705ba92c887d906eca8b8d604c6d41') in 0.097428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1293
+========================================================================
+Received Import Request.
+  Time since last request: 6.544411 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b864bed6635f1e8c6d22350dbb9d73') in 0.030148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1293
+========================================================================
+Received Import Request.
+  Time since last request: 22.292568 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab061b0391665b54d221f143894419a') in 0.026231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1292
+========================================================================
+Received Import Request.
+  Time since last request: 26.076326 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd176b0b36034eb0a82b210228f005174') in 0.027376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1292
+========================================================================
+Received Import Request.
+  Time since last request: 5.180257 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7db68f5e9152c6933b6815220d51ae') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1288
+========================================================================
+Received Import Request.
+  Time since last request: 14.343504 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386b14171680d195750ab4080718831c') in 0.035260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 0.418323 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c85d72754d777055549a6ecbfb6f32') in 0.033550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 5.245353 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd520f1b2e99a1b95d70707529c0c95') in 0.034363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 12.759194 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de1bbaa9245e90ed46996e83baa3fa') in 0.040726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1905
+========================================================================
+Received Import Request.
+  Time since last request: 10.793189 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da55717ac9b82029b6054c9d7d7ad643') in 0.038425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1905
+========================================================================
+Received Import Request.
+  Time since last request: 2.860653 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401dc66c8d4483b7d44dcc76dc6887a') in 0.037397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1905
+========================================================================
+Received Import Request.
+  Time since last request: 3.438808 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda058c6a3942dad11f95b663a767823') in 0.035873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1905
+========================================================================
+Received Import Request.
+  Time since last request: 15.907106 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3a99f9f9d8fe5d387c71df81eff537') in 0.036158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1902
+========================================================================
+Received Import Request.
+  Time since last request: 10.522125 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73091870ca3653e756b47d10df9d2ac') in 0.038062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1902
+========================================================================
+Received Import Request.
+  Time since last request: 17.979101 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9b0116a604b074b7a4223f223e6269') in 0.036209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1884
+========================================================================
+Received Import Request.
+  Time since last request: 7.385692 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d257976cd4b068160662c15d58000d0') in 0.038514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 2.266656 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5704e70cb3d61be94952b54b33b60') in 0.040937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 10.147843 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc6f6ae6f6920f07d373efee5dbcb73') in 0.036675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 7.130547 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c002d897c4576a1c911dbecbfd12c6a2') in 0.036191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 6.484150 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8b4b504afc51e9307648ea83f61ac5') in 0.036886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 14.961133 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26304ac1332a3a24585e21b2d3a8c7fb') in 0.036652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1874
+========================================================================
+Received Import Request.
+  Time since last request: 5.831192 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656a87d7bf19c18c6bf3e5446fac95f7') in 0.036062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1859
+========================================================================
+Received Import Request.
+  Time since last request: 13.773738 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aeb076bb7f5b76e25762c520f69141') in 0.034648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 9.956555 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed844f63873a9e0f7d11d7bca14ac06e') in 0.036628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 4.701269 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba7fbfbd88fbe8ad61d4e02ec954ed1') in 0.039960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 6.335137 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1b615c7087789ef3953eaa86fce9d6') in 0.037207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 0.615080 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99319e7646b50130c933bea9d6e7f8b2') in 0.033999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 15.656481 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceca0439c29ab996167536ab86199b2') in 0.037045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 18.227433 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3d14267a71a6f48af8f7285e65a04b') in 0.036984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 7.671851 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c430ec05d3b7d26a5aa2b5b13862b105') in 0.038151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 0.609441 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c6f4ae91f0a8a2f2b969a3a75f54fd') in 0.034994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 8.314070 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb21b6de64464647c7a227578ce3e41') in 0.037084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 4.267357 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e0517ca9fa0c65b1bae5b9ca650dfe') in 0.042915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 6.671918 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f7d00ecdc5e95ef6b565d3647381b9') in 0.034758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 5.458093 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7af06afaa900d1f14944417743d1e20') in 0.037097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 3.056171 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5f5d45c17a9290dee273906d85a10b') in 0.036959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 8.317014 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23fa9f6c79573066ae76efb6222ed5b') in 0.037796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 3.628800 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d091869b7c6e26245c2444b03f6e463') in 0.034423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 2.259124 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48217fe5a5523625773d530d93c1ae8f') in 0.035395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1804
+========================================================================
+Received Import Request.
+  Time since last request: 3.078606 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29d9560223022263f10a537ad43608c') in 0.035131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 19.279877 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399e44de86a2ac37944f718aaccb7d18') in 0.048638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 2.006328 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7fd2abd9ba1730412eccb163f264b5') in 0.036228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 3.046928 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6de5da2819ade75cfc1cd9bbf91e15d') in 0.036896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 2.038931 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02de257eff2ee9dd45b9345ff9373879') in 0.035362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1805
+========================================================================
+Received Import Request.
+  Time since last request: 8.101736 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea062d26cda5a38a8bd992fc7e2bb09') in 0.038363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 3.406060 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81a77495602378b36cf6f9038689ecb') in 0.036242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 4.642375 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05ef2e99090d8e99a4470acbb228af8') in 0.036399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 9.037192 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a44268ac20a67f89353f84ad41529d') in 0.036887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 2.767041 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2bc903c37e04e1f3653cd8fd51f85b') in 0.041536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 5.475165 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d68f12a7965258fb7aa384acc90cbe1') in 0.034609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 4.033315 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89e0e31c0cacca2ebd3756802a72e6') in 0.035582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 4.859190 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451665956c448330fdc8fee24ab939bf') in 0.035153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 19.757425 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43119a35c8868c3d504332b997934a8d') in 0.043262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 6.581861 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce188be6619ebb3995b0ab403e4ead') in 0.037448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 9.537003 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cf84777ff14e306ab7ab0e007be165') in 0.037993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Import Request.
+  Time since last request: 8.094458 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1024a49c2ba7f969997f7832a772d740') in 0.034765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1809
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.429 seconds
+Domain Reload Profiling: 2213ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (272ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3238.
+Memory consumption went from 139.9 MB to 138.6 MB.
+Total: 10.453476 ms (FindLiveObjects: 0.260855 ms CreateObjectMapping: 0.212349 ms MarkObjects: 9.640096 ms  DeleteObjects: 0.338561 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.973877 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8b0521a9238c8a26a8ffd7bc8c2787') in 0.097969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1799
+========================================================================
+Received Import Request.
+  Time since last request: 8.491553 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7bd880aeb2a11989f43f9a7c03c6b3') in 0.035384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1799
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.768 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1773ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (276ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3241.
+Memory consumption went from 147.8 MB to 146.6 MB.
+Total: 9.266622 ms (FindLiveObjects: 0.238378 ms CreateObjectMapping: 0.260787 ms MarkObjects: 8.482790 ms  DeleteObjects: 0.283579 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120.665669 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b794197234125011f912b7fb14603b08') in 0.104038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1797
+========================================================================
+Received Import Request.
+  Time since last request: 2.775471 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189912a1aae89124734b997a70a34185') in 0.039401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1797
+========================================================================
+Received Import Request.
+  Time since last request: 24.716481 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0573cf514f1206612d82286a2e9669a') in 0.037879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1797
+========================================================================
+Received Import Request.
+  Time since last request: 28.857683 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417c7080467f3550ec832b41ccb7bdcd') in 0.036472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 1790ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1057ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3244.
+Memory consumption went from 155.8 MB to 154.5 MB.
+Total: 10.033800 ms (FindLiveObjects: 0.257610 ms CreateObjectMapping: 0.293797 ms MarkObjects: 9.104584 ms  DeleteObjects: 0.376622 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 4.15 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 1727ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3247.
+Memory consumption went from 163.6 MB to 162.3 MB.
+Total: 10.009875 ms (FindLiveObjects: 0.268525 ms CreateObjectMapping: 0.259141 ms MarkObjects: 9.149930 ms  DeleteObjects: 0.331143 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.709 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1735ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3250.
+Memory consumption went from 171.1 MB to 169.8 MB.
+Total: 9.063132 ms (FindLiveObjects: 0.255910 ms CreateObjectMapping: 0.243460 ms MarkObjects: 8.271115 ms  DeleteObjects: 0.290476 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 4.78 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1758ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3253.
+Memory consumption went from 178.6 MB to 177.4 MB.
+Total: 9.756742 ms (FindLiveObjects: 0.236050 ms CreateObjectMapping: 0.199245 ms MarkObjects: 8.922178 ms  DeleteObjects: 0.398140 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.317 seconds
+Domain Reload Profiling: 2057ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3256.
+Memory consumption went from 186.2 MB to 184.9 MB.
+Total: 8.281394 ms (FindLiveObjects: 0.218991 ms CreateObjectMapping: 0.178922 ms MarkObjects: 7.484324 ms  DeleteObjects: 0.398085 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.530734 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27921c58c1c928d1206e7adfc931ca08') in 0.118669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 60.048820 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd854f1109e1f9aec35b18d6b07ab5') in 0.046008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 4.806461 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493ae61541ceafb149c5b839c149df5e') in 0.035510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling: 2075ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1324ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3259.
+Memory consumption went from 193.9 MB to 192.6 MB.
+Total: 9.737497 ms (FindLiveObjects: 0.374939 ms CreateObjectMapping: 0.200291 ms MarkObjects: 8.540670 ms  DeleteObjects: 0.620598 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 2169ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (515ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3262.
+Memory consumption went from 201.7 MB to 200.4 MB.
+Total: 9.740942 ms (FindLiveObjects: 0.270813 ms CreateObjectMapping: 0.309286 ms MarkObjects: 8.638858 ms  DeleteObjects: 0.520929 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.298 seconds
+Domain Reload Profiling: 2067ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3265.
+Memory consumption went from 209.2 MB to 207.9 MB.
+Total: 9.246386 ms (FindLiveObjects: 0.571101 ms CreateObjectMapping: 0.283987 ms MarkObjects: 8.069251 ms  DeleteObjects: 0.320863 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367.873999 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b853877b98312787fd629db43bb460f5') in 0.115841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 2.592021 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211609a9aed5019daed1c8eb58b42ab1') in 0.036604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2091ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (271ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (698ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3268.
+Memory consumption went from 216.9 MB to 215.6 MB.
+Total: 9.613297 ms (FindLiveObjects: 0.293068 ms CreateObjectMapping: 0.216243 ms MarkObjects: 8.780801 ms  DeleteObjects: 0.321980 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 335.063884 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521e43785d657178d643e07a31ddeeb') in 0.112706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.165 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.426 seconds
+Domain Reload Profiling: 2589ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (771ms)
+		LoadAssemblies (524ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (308ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3271.
+Memory consumption went from 224.8 MB to 223.5 MB.
+Total: 9.607795 ms (FindLiveObjects: 0.248765 ms CreateObjectMapping: 0.235618 ms MarkObjects: 8.797402 ms  DeleteObjects: 0.324654 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147.830746 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c942ca2d7c8f850d01904680650bd593') in 0.108870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 6.416836 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb43d6bb6d428ce785269101f365584') in 0.033567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 8.950430 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85784ba136e6c7b4d05075af04443f66') in 0.033218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 0.229103 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3e3f4f8a4a10365b1d83a7d2c811a6') in 0.035210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 6.714530 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8bfbb9130fe5c906298d7fc78453dd') in 0.037339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 5.301449 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858d0e1eb830d21b6240d0a28bc67193') in 0.035703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 9.114489 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc17d36d93dd661be8e8f3d6fddc3ea') in 0.035199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 31.798394 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727548f0f7201fea1073f6f26e48815e') in 0.037256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 23.522848 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701f50c19f68a3212684f68bfade9bfc') in 0.037720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 7.538458 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561af66cf0dc16473a2450f07c05195e') in 0.036998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 27.535447 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c43be4ba46cf9c00382767dbf9cc9f8') in 0.035266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 4.716521 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd803188984dd173ac10b41dd92a079d3') in 0.035716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 1830ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (295ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (752ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3274.
+Memory consumption went from 232.7 MB to 231.5 MB.
+Total: 8.966571 ms (FindLiveObjects: 0.334048 ms CreateObjectMapping: 0.214976 ms MarkObjects: 8.153782 ms  DeleteObjects: 0.262622 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 220.719152 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ea16304d89ac80a1f2db2d8599246') in 0.101635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 15.521701 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eb8e6d9ef9566737cdd31429da398d') in 0.037208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 17.813601 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512e5990aab42e3993b3be75cac59364') in 0.036056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 3.302632 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2dd0488bbcbd5f3a4416685727cf3c') in 0.033723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 4.24 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1703ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (270ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (962ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (693ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3277.
+Memory consumption went from 240.7 MB to 239.4 MB.
+Total: 10.080506 ms (FindLiveObjects: 0.297797 ms CreateObjectMapping: 0.262783 ms MarkObjects: 9.165211 ms  DeleteObjects: 0.353604 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.563014 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6d927f588a847d6cf48d26dc1291b5') in 0.124841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 0.937805 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e8117fb39cbda4723ad2d132876ae9') in 0.038262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 9.298103 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dff555b46bd6d4d0a706a7b09febf37') in 0.034188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Import Request.
+  Time since last request: 6.488299 seconds.
+  path: Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab
+  artifactKey: Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkoutPlayer/Prefabs/WorkoutPlayer.prefab using Guid(a4ba9fb55b9119d4680908d463f74d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1e9e58c48c289528e3760fbbc0e046') in 0.035214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1784
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.884 seconds
+Refreshing native plugins compatible for Editor in 4.46 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.378 seconds
+Domain Reload Profiling: 2262ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (348ms)
+				TypeCache.ScanAssembly (330ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1379ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.3 MB). Loaded Objects now: 3280.
+Memory consumption went from 248.6 MB to 247.3 MB.
+Total: 10.234947 ms (FindLiveObjects: 0.233123 ms CreateObjectMapping: 0.157974 ms MarkObjects: 9.350794 ms  DeleteObjects: 0.491900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BurtBotNumber.cs: 17d8684ca93bab42fac4072a0b1221ca -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

@@ -14,7 +14,11 @@ public class ExerciseStatsController : MonoBehaviour
 	[SerializeField] private TextMeshProUGUI _timeLabel;
 	[SerializeField] private TextMeshProUGUI _weightLabel;
 
-	public void Init(WorkoutPlayerController controller)
+    [SerializeField] private BBReps bbReps;
+    [SerializeField] private BBWeight bbWeight;
+    [SerializeField] private BBTime bbTime;
+
+    public void Init(WorkoutPlayerController controller)
 	{
 		_controller = controller;
 		_repValue.color = ColorManager.Instance.ActiveColorLight;
@@ -27,6 +31,8 @@ public class ExerciseStatsController : MonoBehaviour
 	public void UpdateRepValue(int repValue)
 	{
 		_repValue.text = "x" + repValue;
+
+		bbReps.DisplayNumber(repValue);
 	}
 
 	public void UpdateTimeValue(int timeValue)
@@ -45,18 +51,23 @@ public class ExerciseStatsController : MonoBehaviour
 		}
 
 		_timeValue.text = minutes + ":" + secondsString;
-	}
 
-	public void UpdateWeightValue(int weightValue)
+        bbTime.DisplaySeconds(seconds);
+        bbTime.DisplayMinutes(minutes);
+    }
+
+    public void UpdateWeightValue(int weightValue)
 	{
 		if (weightValue > 0) {
-			_weightValue.text = weightValue.ToString ();
+			_weightValue.text = "";
 			_weightValue.color = ColorManager.Instance.ActiveColorLight;
 			_weightLabel.color = ColorManager.Instance.ActiveColorLight;
+			bbWeight.DisplayNumber(weightValue);
 		} else {
 			_weightValue.text = "NA";
 			_weightValue.color = ColorManager.Instance.ActiveColorDark;
 			_weightLabel.color = ColorManager.Instance.ActiveColorDark;
+			bbWeight.ShowNull();
 		}
 	}
 
