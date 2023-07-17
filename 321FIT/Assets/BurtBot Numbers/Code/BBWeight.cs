@@ -17,14 +17,14 @@ public class BBWeight : MonoBehaviour
     {
         if (number < 10)
         {
-            transform.DOMove(oneDigitPosition.position, 0.5f);
+            transform.DOMoveX(oneDigitPosition.position.x, 0.5f);
             digit1.ShowNull();
             digit2.ShowNull();
             digit3.ShowNumber(number);
         }
         else if (number > 99)
         {
-            transform.DOMove(threeDigitPosition.position, 0.5f);
+            transform.DOMoveX(threeDigitPosition.position.x, 0.5f);
 
             int firstDigit = (int)(number.ToString()[0]) - 48;
             int secondDigit = (int)(number.ToString()[1]) - 48;
@@ -36,7 +36,7 @@ public class BBWeight : MonoBehaviour
         }
         else
         {
-            transform.DOMove(twoDigitPosition.position, 0.5f);
+            transform.DOMoveX(twoDigitPosition.position.x, 0.5f);
 
             int firstDigit = (int)(number.ToString()[0]) - 48;
             int secondDigit = (int)(number.ToString()[1]) - 48;

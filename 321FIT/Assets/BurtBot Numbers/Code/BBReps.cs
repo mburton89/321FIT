@@ -16,13 +16,13 @@ public class BBReps : MonoBehaviour
     {
         if (number < 10)
         {
-            transform.DOMove(twoDigitPosition.position, 0.5f);
+            transform.DOMoveX(twoDigitPosition.position.x, 0.5f);
             digit1.ShowNumber(number);
             digit2.ShowNull();
         }
         else
         {
-            transform.DOMove(threeDigitPosition.position, 0.5f);
+            transform.DOMoveX(threeDigitPosition.position.x, 0.5f);
 
             int firstDigit = (int)(number.ToString()[0]) - 48;
             int secondDigit = (int)(number.ToString()[1]) - 48;

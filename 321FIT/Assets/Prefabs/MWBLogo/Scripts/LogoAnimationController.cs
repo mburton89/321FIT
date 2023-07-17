@@ -15,6 +15,8 @@ public class LogoAnimationController : MonoBehaviour {
     [SerializeField] private AudioClip _powerUpClip;
     [SerializeField] private AudioSource _audioSource;
 
+    public AudioSource spinSound;
+
     void Start ()
     {
         _allImages = FindObjectsOfType<Image>();
@@ -27,6 +29,7 @@ public class LogoAnimationController : MonoBehaviour {
         }
         StartCoroutine(LightEmUp());
         StartCoroutine(PlaySounds());
+        StartCoroutine(PlaySounds2());
     }
 
     private IEnumerator LightEmUp()
@@ -48,12 +51,17 @@ public class LogoAnimationController : MonoBehaviour {
 
     private IEnumerator PlaySounds()
     {
-        _audioSource.clip = _spinClip;
-        _audioSource.Play();
         yield return new WaitForSeconds(_spinClip.length);
         _audioSource.clip = _powerUpClip;
         _audioSource.Play();
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(0);
     }
+
+    private IEnumerator PlaySounds2()
+    {
+        yield return new WaitForSeconds(.05f);
+        spinSound.Play();
+    }
+
 }

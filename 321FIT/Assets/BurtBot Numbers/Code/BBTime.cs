@@ -35,7 +35,7 @@ public class BBTime : MonoBehaviour
     {
         if (minutes < 10)
         {
-            //transform.DOMove(threeDigitPosition.position, 0.5f);
+            //transform.DOMoveX(threeDigitPosition.position.x, 0.5f);
             digit3.ShowNumber(minutes);
             digit4.ShowNull();
         }
