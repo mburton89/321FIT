@@ -1,0 +1,336 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/matthewburton/Documents/GitHub/321FIT/321FIT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57232
+Successfully changed project path to: /Users/matthewburton/Documents/GitHub/321FIT/321FIT
+/Users/matthewburton/Documents/GitHub/321FIT/321FIT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704594531968] Host "[IP] 192.168.13.185 [Port] 0 [Flags] 2 [Guid] 1149853143 [EditorId] 1149853143 [Version] 1048832 [Id] OSXEditor(0,MBurton.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704594531968] Host "[IP] 192.168.13.185 [Port] 0 [Flags] 2 [Guid] 1149853143 [EditorId] 1149853143 [Version] 1048832 [Id] OSXEditor(0,MBurton.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 31.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/matthewburton/Documents/GitHub/321FIT/321FIT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004037 seconds.
+- Loaded All Assemblies, in  0.624 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1139ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (516ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (127ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.340 seconds
+Refreshing native plugins compatible for Editor in 7.51 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.214 seconds
+Domain Reload Profiling: 2555ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1032ms)
+		LoadAssemblies (637ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (471ms)
+			TypeCache.Refresh (433ms)
+				TypeCache.ScanAssembly (399ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (980ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (647ms)
+			ProcessInitializeOnLoadMethodAttributes (220ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.3 MB). Loaded Objects now: 3224.
+Memory consumption went from 133.8 MB to 132.5 MB.
+Total: 12.073780 ms (FindLiveObjects: 0.471824 ms CreateObjectMapping: 0.479857 ms MarkObjects: 10.608069 ms  DeleteObjects: 0.512077 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53113.725897 seconds.
+  path: Assets/PPP 2.asset
+  artifactKey: Guid(4f1029658429a429ab88da69b045ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PPP 2.asset using Guid(4f1029658429a429ab88da69b045ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74216f04e9d616b3262faae268ccf20d') in 0.031179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Images/Animations/bent_over_rows_3b.png
+  artifactKey: Guid(524d4903ab25c2d4bba30da2a1355deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bent_over_rows_3b.png using Guid(524d4903ab25c2d4bba30da2a1355deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459d08489e834568b01cc46bdd0b0441') in 0.202669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Images/Animations/bands_internal_1b.png
+  artifactKey: Guid(4ff924ddd63bbb44cb7113e7373e4cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_internal_1b.png using Guid(4ff924ddd63bbb44cb7113e7373e4cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef2821af642281dc4fed83d7b1dd845') in 0.011214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Animations/body_squats_1.png
+  artifactKey: Guid(12b058bb7b5dd6f4fba524d2bdeb8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/body_squats_1.png using Guid(12b058bb7b5dd6f4fba524d2bdeb8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1baba4e92b3cc8acaee077eece1c70') in 0.011543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Animations/bent_over_rows_1b.png
+  artifactKey: Guid(41da2087e12118243a6146519904f723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bent_over_rows_1b.png using Guid(41da2087e12118243a6146519904f723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80d97ba99b623765ecc51721529f4c8') in 0.009798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/iPhoneX_Screen.png
+  artifactKey: Guid(d772fbb2b56380c43bae04c6aedf7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPhoneX_Screen.png using Guid(d772fbb2b56380c43bae04c6aedf7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e864441525b9b23b123edf1bb1fa1b5e') in 0.019535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Images/Animations/bent_over_rows_1.png
+  artifactKey: Guid(a13c30c27e06947bab5e3e785146a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bent_over_rows_1.png using Guid(a13c30c27e06947bab5e3e785146a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac23b70904666e87cb29a72aaca38f') in 0.008924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/BAHNS - RED80s.asset
+  artifactKey: Guid(dad9420944ee42b4c89d144fd2f8da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BAHNS - RED80s.asset using Guid(dad9420944ee42b4c89d144fd2f8da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edf3760a6c348283c42424057cbbcf2') in 0.465559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Images/Animations/bands_external_2b.png
+  artifactKey: Guid(e84094981fda5f4438717b8e3dca8159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_external_2b.png using Guid(e84094981fda5f4438717b8e3dca8159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fe9abef03843374a71a03da951aec4') in 0.012789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/VideoAd/Images/_DELETE_iPhoneX_frame1.png
+  artifactKey: Guid(f425efca3d814504bb06e17ea31726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoAd/Images/_DELETE_iPhoneX_frame1.png using Guid(f425efca3d814504bb06e17ea31726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70b7b6d21e5e524ab8e88edfa5544e1') in 0.027898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Images/Animations/bands_internal_2.png
+  artifactKey: Guid(403237fae1414034287b1036df56c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_internal_2.png using Guid(403237fae1414034287b1036df56c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6682855917d72d9f19dd262cab093b23') in 0.008914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Images/Animations/bands_internal_3b.png
+  artifactKey: Guid(201b78cb910da4547ad82ca797d21569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_internal_3b.png using Guid(201b78cb910da4547ad82ca797d21569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a27faa1cc4da653653bfc1053d39062') in 0.008619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Images/Animations/bent_over_rows_2.png
+  artifactKey: Guid(367ac1d2db79e4c4082841386d8e58eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bent_over_rows_2.png using Guid(367ac1d2db79e4c4082841386d8e58eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f480f7ac0c1a920699f4676ecbe7c8') in 0.010176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/NewBrush 1.brush
+  artifactKey: Guid(c6b02bb9534b691468ee15684769bd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush 1.brush using Guid(c6b02bb9534b691468ee15684769bd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a1598ddbd9cc81e788c2b47dbb0f50') in 0.119695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Images/Animations/bands_external_3.png
+  artifactKey: Guid(ca29bb7c204a48b40b5e6418b0034441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_external_3.png using Guid(ca29bb7c204a48b40b5e6418b0034441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3999855e24dd0ff1a5addcfbfce378') in 0.009924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Images/Animations/body_squats_3.png
+  artifactKey: Guid(05f9523ef865e9a409b9b67aef199178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/body_squats_3.png using Guid(05f9523ef865e9a409b9b67aef199178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3836824b2fc41f1104e1916fc75f0be') in 0.013641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/911Fonts.com_CenturyGothicBold__-_911fonts.asset
+  artifactKey: Guid(af19abb0262bd704cb17d67aeb077c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/911Fonts.com_CenturyGothicBold__-_911fonts.asset using Guid(af19abb0262bd704cb17d67aeb077c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3306d71ec0e3e65c21e075d9e174be') in 0.076660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Images/Animations/bands_internal_2b.png
+  artifactKey: Guid(7f85ff238c9178142a8f5f5df4c57b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/bands_internal_2b.png using Guid(7f85ff238c9178142a8f5f5df4c57b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fcb6bd2f391a91da00296cc01a6024') in 0.013961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
