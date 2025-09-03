@@ -282,3 +282,62 @@ Received Import Request.
 Start importing Assets/Images/321FIT_Icon_Android.png using Guid(3e93815c5e9fe764282d3d39399f1295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb41b7c626dc59987df39cd5020cc181') in 0.533296997 seconds
 Number of updated asset objects reloaded before import = 11Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 19565.510322 seconds.
+  path: Assets/SplashAnimation/Prefabs/321FitAnimationContainer.prefab
+  artifactKey: Guid(22edbb80e6751e947a9b50fa05307a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SplashAnimation/Prefabs/321FitAnimationContainer.prefab using Guid(22edbb80e6751e947a9b50fa05307a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec521f60a538dd3a48b8ab873a2a4cb') in 0.34962405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo 1.ttf
+  artifactKey: Guid(7fb30aae742e32d48994d83faa7c4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo 1.ttf using Guid(7fb30aae742e32d48994d83faa7c4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ffacada0f3a69bb09ac97abe72f005') in 1.712137873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/VideoAd/Images/_DELETE_iPhoneX_frame1.png
+  artifactKey: Guid(f425efca3d814504bb06e17ea31726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoAd/Images/_DELETE_iPhoneX_frame1.png using Guid(f425efca3d814504bb06e17ea31726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad666891c2a4a6a478bd9abaf50552e') in 0.152849699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/BAHNS - OUTLINE.asset
+  artifactKey: Guid(d80894b15e5e39c429e6bb4f7c8f0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BAHNS - OUTLINE.asset using Guid(d80894b15e5e39c429e6bb4f7c8f0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93fbc8e404bbde4f51da5b056c13523f') in 0.330108221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BAHNS - RED80s.asset
+  artifactKey: Guid(dad9420944ee42b4c89d144fd2f8da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BAHNS - RED80s.asset using Guid(dad9420944ee42b4c89d144fd2f8da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2032213a5dc3fe908e001fa583d3d574') in 0.250653392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Images/Animations/box_jumps_4b.png
+  artifactKey: Guid(1c39b60dde79cfa439de8e437fb05314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Animations/box_jumps_4b.png using Guid(1c39b60dde79cfa439de8e437fb05314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '263b1227f698a2208c7a3f101f36ee2b') in 0.006997572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BAHNSCHRIFT SDF.asset
+  artifactKey: Guid(feb692f47b3d4d145a123c0724e06ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BAHNSCHRIFT SDF.asset using Guid(feb692f47b3d4d145a123c0724e06ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36d96d57cbbcd65f8eea4a6a8ebc1baa') in 0.026068883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
