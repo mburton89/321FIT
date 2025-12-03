@@ -12,11 +12,16 @@ public class BBRow : MonoBehaviour
     public Image dotMiddle;
     public Image dotRight;
 
+    public bool overrideActiveColor;
+
     private void Start()
     {
-        dotLeft.color = ColorManager.Instance.ActiveColorLight;
-        dotMiddle.color = ColorManager.Instance.ActiveColorLight;
-        dotRight.color = ColorManager.Instance.ActiveColorLight;
+        if (!overrideActiveColor)
+        { 
+            dotLeft.color = ColorManager.Instance.ActiveColorLight;
+            dotMiddle.color = ColorManager.Instance.ActiveColorLight;
+            dotRight.color = ColorManager.Instance.ActiveColorLight;     
+        }
     }
 
     public void ShowLeftDot()
@@ -66,6 +71,13 @@ public class BBRow : MonoBehaviour
         dotLeft.rectTransform.DOSizeDelta(bbNumber.emptyDotSize, bbNumber.secondsToAnimate);
         dotMiddle.rectTransform.DOSizeDelta(bbNumber.emptyDotSize, bbNumber.secondsToAnimate);
         dotRight.rectTransform.DOSizeDelta(bbNumber.emptyDotSize, bbNumber.secondsToAnimate);
+    }
+
+    public void ShowNullImmediate()
+    {
+        dotLeft.rectTransform.sizeDelta = bbNumber.emptyDotSize;
+        dotMiddle.rectTransform.sizeDelta = bbNumber.emptyDotSize;
+        dotRight.rectTransform.sizeDelta = bbNumber.emptyDotSize;
     }
 }
 

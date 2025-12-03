@@ -17,7 +17,14 @@ public class SplashAnimationController : MonoBehaviour
 	[SerializeField] private TextMeshProUGUI _textI;
 	[SerializeField] private TextMeshProUGUI _textT;
 
-	[SerializeField] private Image _outerClockBG;
+    [SerializeField] private BBNumber bb3;
+    [SerializeField] private BBNumber bb2;
+    [SerializeField] private BBNumber bb1;
+    [SerializeField] private BBNumber bbF;
+    [SerializeField] private BBNumber bbI;
+    [SerializeField] private BBNumber bbT;
+
+    [SerializeField] private Image _outerClockBG;
 	[SerializeField] private Image _outerClock;
 	[SerializeField] private Image _squatDudeBG;
 	[SerializeField] private Image _squatDude;
@@ -67,24 +74,30 @@ public class SplashAnimationController : MonoBehaviour
 	private IEnumerator Play321FITTextSequenceCo()
 	{
 		_text3.color = _selectedColor;
+		bb3.Show3();
 		//SoundManager.Instance.PlayCountDownBeep ();
 		SoundManager.Instance.PlaySplashIntro();
 		yield return new WaitForSeconds (NUMBER_LIGHTUP_DURATION);
 		_text2.color = _selectedColor;
+		bb2.Show2 ();
 		//SoundManager.Instance.PlayCountDownBeep ();
 		yield return new WaitForSeconds (NUMBER_LIGHTUP_DURATION);
 		_text1.color = _selectedColor;
+		bb1.Show1 ();
 		//SoundManager.Instance.PlayCountDownBeep ();
 		_loadingText.text = PHRASE_2;
 		yield return new WaitForSeconds (NUMBER_TO_LETTER_DURATION);
 		SoundManager.Instance.PlayLevelUpSound ();
 		_textF.color = _selectedColor;
+		bbF.ShowF ();
 		_squatDude.fillAmount = 0.3435f;
 		yield return new WaitForSeconds (NUMBER_LIGHTUP_DURATION);
 		_textI.color = _selectedColor;
+		bbI.ShowI ();
 		_squatDude.fillAmount = 0.687f;
 		yield return new WaitForSeconds (NUMBER_LIGHTUP_DURATION);
 		_textT.color = _selectedColor;
+		bbT.ShowT ();
 		_squatDude.fillAmount = 1f;
 		_squatDudeBG.gameObject.SetActive (false);
 		KickOffSquatDude ();
@@ -135,9 +148,16 @@ public class SplashAnimationController : MonoBehaviour
 		_outerClock.color = _selectedColor;
 		_loadingText.color = _selectedColor;
 		_loadingText.text = PHRASE_1;
-	}
 
-	void PlayWholeShebang()
+		bb3.ShowNullImmediate();
+		bb2.ShowNullImmediate();
+		bb1.ShowNullImmediate();
+		bbF.ShowNullImmediate();
+		bbI.ShowNullImmediate();
+		bbT.ShowNullImmediate();
+    }
+
+    void PlayWholeShebang()
 	{
 		StartCoroutine (PlayWholeShebangCo());
 	}

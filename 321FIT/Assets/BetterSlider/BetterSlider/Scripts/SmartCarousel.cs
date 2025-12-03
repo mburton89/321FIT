@@ -64,18 +64,25 @@ public class SmartCarousel : MonoBehaviour
 
     private SmartCarouselItem CreateCarouselItem(List<Sprite> sprites)
     {
-        SmartCarouselItem newCarouselItem = Instantiate(_carouselItemPrefab);
+        SmartCarouselItem newCarouselItem = Instantiate(_carouselItemPrefab, _horizontalLayoutGroup.transform);
         newCarouselItem.Init(sprites, _horizontalLayoutGroup.transform);
+
+        // Force immediate layout rebuild
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_horizontalLayoutGroup.GetComponent<RectTransform>());
+
         return newCarouselItem;
     }
 
 	private SmartCarouselItem CreateCarouselItem(ExerciseData exercise)
 	{
-		SmartCarouselItem newCarouselItem = Instantiate(_carouselItemPrefab);
-		FitBoyAnimator fitBoyAnimator = newCarouselItem.GetComponent<FitBoyAnimator> ();
+        SmartCarouselItem newCarouselItem = Instantiate(_carouselItemPrefab, _horizontalLayoutGroup.transform);
+        FitBoyAnimator fitBoyAnimator = newCarouselItem.GetComponent<FitBoyAnimator> ();
 		fitBoyAnimator.Init (exercise.exerciseType);
 		newCarouselItem.Init(_horizontalLayoutGroup.transform);
-		return newCarouselItem;
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_horizontalLayoutGroup.GetComponent<RectTransform>());
+
+        return newCarouselItem;
 	}
 
 //    private void DetermineCenterMostItem()

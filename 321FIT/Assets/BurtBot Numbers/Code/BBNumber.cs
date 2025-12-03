@@ -199,4 +199,48 @@ public class BBNumber : MonoBehaviour
         bottomDot2.ShowNull();
         bottomLine.ShowNull();
     }
+
+    public void ShowNullImmediate()
+    {
+        topLine.ShowNullImmediate();
+        topDot1.ShowNullImmediate();
+        topDot2.ShowNullImmediate();
+        middleLine.ShowNullImmediate();
+        bottomDot1.ShowNullImmediate();
+        bottomDot2.ShowNullImmediate();
+        bottomLine.ShowNullImmediate();
+    }
+
+    public void ShowF()
+    {
+        topLine.ShowFullLine();
+        topDot1.ShowLeftDot();
+        topDot2.ShowLeftDot();
+        middleLine.ShowFullLine();
+        bottomDot1.ShowLeftDot();
+        bottomDot2.ShowLeftDot();
+        bottomLine.ShowLeftDot();
+    }
+
+    public void ShowI()
+    {
+        topLine.ShowFullLine();
+        topDot1.ShowMiddleDot();
+        topDot2.ShowMiddleDot();
+        middleLine.ShowMiddleDot();
+        bottomDot1.ShowMiddleDot();
+        bottomDot2.ShowMiddleDot();
+        bottomLine.ShowFullLine();
+    }
+
+    public void ShowT()
+    {
+        topLine.ShowFullLine();
+        topDot1.ShowMiddleDot();
+        topDot2.ShowMiddleDot();
+        middleLine.ShowMiddleDot();
+        bottomDot1.ShowMiddleDot();
+        bottomDot2.ShowMiddleDot();
+        bottomLine.ShowMiddleDot();
+    }
 }
