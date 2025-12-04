@@ -68,7 +68,7 @@ PlayerSettings:
   preserveFramebufferAlpha: 0
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
-  androidRenderOutsideSafeArea: 0
+  androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
   androidDisplayOptions: 1
   androidBlitType: 0
@@ -176,7 +176,7 @@ PlayerSettings:
     iPhone: 3
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 161
+  AndroidBundleVersionCode: 164
   AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 35
   AndroidPreferredInstallLocation: 1
@@ -292,7 +292,7 @@ PlayerSettings:
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
-  AndroidAppBundleSizeToValidate: 150
+  AndroidAppBundleSizeToValidate: 162
   AndroidReportGooglePlayAppDependencies: 1
   androidSymbolsSizeThreshold: 800
   m_BuildTargetIcons:
